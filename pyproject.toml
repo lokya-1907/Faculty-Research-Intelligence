@@ -1,0 +1,25 @@
+# Project tooling configuration. Nothing here changes runtime behaviour; it keeps
+# local runs and CI consistent.
+[tool.ruff]
+line-length = 200
+target-version = "py311"
+extend-exclude = [".venv", "node_modules", "__pycache__", "frontend"]
+
+[tool.ruff.lint]
+# Start with correctness-only rules so the existing codebase passes unchanged.
+select = ["E9", "F63", "F7", "F82"]
+
+[tool.pytest.ini_options]
+testpaths = ["backend"]
+addopts = "-q"
+
+[tool.coverage.run]
+source = ["backend/app"]
+branch = true
+omit = ["*/__pycache__/*", "*/test_*.py"]
+
+[tool.coverage.report]
+# A floor, not a target: it prevents silent regression rather than demanding a number.
+fail_under = 55
+show_missing = true
+skip_covered = true

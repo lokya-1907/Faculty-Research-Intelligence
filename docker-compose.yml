@@ -1,0 +1,24 @@
+# Optional: `docker compose up --build`
+# Prefer backend/.env for local secrets, or set them here for a test run only.
+services:
+  researchpulse:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - backend/.env
+    environment:
+      DATABASE_PATH: /app/backend/data/research_intelligence.db
+      LOG_FILE: /app/backend/logs/researchpulse.log
+      BACKUP_INTERVAL_HOURS: "24"
+      BACKUP_RETENTION: "14"
+    volumes:
+      - researchpulse-data:/app/backend/data
+      - researchpulse-backups:/app/backend/backups
+      - researchpulse-logs:/app/backend/logs
+    restart: unless-stopped
+
+volumes:
+  researchpulse-data:
+  researchpulse-backups:
+  researchpulse-logs:

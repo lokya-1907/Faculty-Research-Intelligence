@@ -1,0 +1,43 @@
+RESEARCHPULSE - FACULTY RESEARCH INTELLIGENCE
+===============================================
+
+1. Extract the ZIP.
+2. Open PowerShell in the project folder.
+3. Run:
+   Set-ExecutionPolicy -Scope Process Bypass -Force
+   .\setup_windows.ps1
+4. Run:
+   .\start_windows.ps1
+5. Open:
+   http://127.0.0.1:5173
+
+LOGIN
+-----
+The app opens with a login page. Use the AUTH_USERNAME and AUTH_PASSWORD values from backend\.env. Change them before sharing or deploying the application.
+
+LIVE SCOPUS SETUP
+-----------------
+Edit backend\.env and add your Elsevier API key:
+SCOPUS_API_KEY=YOUR_KEY
+SCOPUS_ENABLED=true
+Restart the backend after changing .env.
+
+Google Scholar
+--------------
+Google Scholar does not provide the same public author API as Scopus. The app therefore supports a linked public Scholar profile through an optional provider adapter. To enable it:
+SERPAPI_API_KEY=YOUR_KEY
+SCHOLAR_ENABLED=true
+A faculty profile URL containing ?user=... must be linked in the database/UI extension.
+
+WITHOUT API KEYS
+----------------
+The application still starts and the UI works, but live faculty search cannot return Scopus results. This is intentional: it avoids fake/demo research metrics being presented as live data.
+
+DATABASE
+--------
+SQLite database is created automatically at backend\data\research_intelligence.db.
+Search history and metric snapshots persist between runs.
+
+DOCKER
+------
+Not required. Docker files are retained only as optional deployment artifacts.

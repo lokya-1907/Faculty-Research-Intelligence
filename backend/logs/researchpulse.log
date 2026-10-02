@@ -1,0 +1,1193 @@
+2026-10-02 17:17:29,399 INFO researchpulse POST /api/v1/auth/login 200 1.8ms
+2026-10-02 17:17:29,401 INFO httpx HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+2026-10-02 17:17:29,407 INFO researchpulse GET /api/v1/health 200 4.2ms
+2026-10-02 17:17:29,408 INFO httpx HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+2026-10-02 17:17:29,412 INFO researchpulse GET /api/v1/exports 200 1.6ms
+2026-10-02 17:17:29,413 INFO httpx HTTP Request: GET http://testserver/api/v1/exports "HTTP/1.1 200 OK"
+2026-10-02 17:17:29,419 INFO researchpulse GET /api/v1/exports 200 2.4ms
+2026-10-02 17:17:29,421 INFO httpx HTTP Request: GET http://testserver/api/v1/exports "HTTP/1.1 200 OK"
+2026-10-02 17:25:18,111 INFO researchpulse POST /api/v1/auth/login 200 9.5ms
+2026-10-02 17:25:18,137 INFO researchpulse GET /api/v1/health 200 6.9ms
+2026-10-02 17:25:18,145 INFO researchpulse GET /api/v1/exports 200 4.4ms
+2026-10-02 17:25:18,171 INFO researchpulse GET /api/v1/review/queue 200 10.1ms
+2026-10-02 17:25:18,186 INFO researchpulse GET /api/v1/analytics/ranking 200 10.7ms
+2026-10-02 17:25:18,213 INFO researchpulse GET /api/v1/sync/batch/status 200 6.2ms
+2026-10-02 17:25:18,252 INFO researchpulse GET /api/v1/maintenance/status 200 14.6ms
+2026-10-02 17:25:18,277 INFO researchpulse GET /api/v1/exports/directory 200 22.0ms
+2026-10-02 17:25:18,344 INFO researchpulse GET /api/v1/exports/metrics 200 46.5ms
+2026-10-02 17:26:17,866 INFO researchpulse GET /api/v1/health 200 5.4ms
+2026-10-02 17:26:17,868 INFO researchpulse GET /api/v1/history 200 6.1ms
+2026-10-02 17:26:17,873 INFO researchpulse GET /api/v1/authors 200 10.5ms
+2026-10-02 17:26:17,875 INFO researchpulse GET /api/v1/history 200 4.1ms
+2026-10-02 17:26:17,878 INFO researchpulse GET /api/v1/health 200 8.9ms
+2026-10-02 17:26:17,884 INFO researchpulse GET /api/v1/authors 200 8.0ms
+2026-10-02 17:26:17,885 INFO researchpulse GET /api/v1/exports 200 3.3ms
+2026-10-02 17:26:53,351 INFO researchpulse GET /api/v1/auth/login 405 0.4ms
+2026-10-02 17:26:53,370 INFO researchpulse POST /api/v1/auth/login 200 4.0ms
+2026-10-02 17:26:53,401 INFO researchpulse GET /api/v1/health 200 4.0ms
+2026-10-02 17:26:53,418 INFO researchpulse GET /api/v1/exports 200 3.9ms
+2026-10-02 17:26:53,430 INFO researchpulse GET /api/v1/review/queue 200 9.5ms
+2026-10-02 17:26:53,453 INFO researchpulse GET /api/v1/analytics/ranking 200 10.0ms
+2026-10-02 17:26:53,460 INFO researchpulse GET /api/v1/sync/batch/status 200 3.6ms
+2026-10-02 17:26:53,485 INFO researchpulse GET /api/v1/maintenance/status 200 22.5ms
+2026-10-02 17:30:51,676 INFO researchpulse GET /api/v1/authors 200 25.6ms
+2026-10-02 17:30:51,677 INFO researchpulse GET /api/v1/authors/departments 200 19.7ms
+2026-10-02 17:30:51,684 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 25.8ms
+2026-10-02 17:30:55,982 INFO researchpulse GET /api/v1/exports 200 4.6ms
+2026-10-02 17:31:02,563 INFO researchpulse GET /api/v1/review/queue 200 15.9ms
+2026-10-02 17:31:12,375 INFO researchpulse GET /api/v1/review/queue 200 8.2ms
+2026-10-02 17:31:29,599 INFO researchpulse GET /api/v1/authors 200 15.6ms
+2026-10-02 17:31:29,702 INFO researchpulse POST /api/v1/review/apply 200 83.9ms
+2026-10-02 17:31:29,712 INFO researchpulse GET /api/v1/review/queue 200 6.8ms
+2026-10-02 17:31:34,304 INFO researchpulse GET /api/v1/review/queue 200 8.0ms
+2026-10-02 17:31:35,803 INFO researchpulse GET /api/v1/review/queue 200 4.9ms
+2026-10-02 17:31:37,158 INFO researchpulse GET /api/v1/review/queue 200 3.8ms
+2026-10-02 17:31:43,147 INFO researchpulse POST /api/v1/review/undo 200 24.9ms
+2026-10-02 17:31:43,156 INFO researchpulse GET /api/v1/review/queue 200 5.4ms
+2026-10-02 17:31:47,256 INFO researchpulse GET /api/v1/analytics/ranking 200 14.4ms
+2026-10-02 17:31:47,260 INFO researchpulse GET /api/v1/analytics/cohort 200 16.9ms
+2026-10-02 17:31:57,387 INFO researchpulse GET /api/v1/sync/batch/status 200 7.1ms
+2026-10-02 17:31:57,393 INFO researchpulse GET /api/v1/sync/failures 200 6.9ms
+2026-10-02 17:31:57,398 INFO researchpulse GET /api/v1/maintenance/status 200 11.4ms
+2026-10-02 17:32:09,682 INFO researchpulse GET /api/v1/authors/departments 200 7.5ms
+2026-10-02 17:32:09,687 INFO researchpulse GET /api/v1/authors 200 13.0ms
+2026-10-02 17:32:09,692 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 17.3ms
+2026-10-02 17:32:21,888 INFO researchpulse GET /api/v1/authors/vfstr_9759a3b7c17a20e3d45d/profile 200 15.2ms
+2026-10-02 17:32:21,928 INFO researchpulse GET /api/v1/faculty/fac_vfstr_703e2c358e441200/monthly-history 200 10.6ms
+2026-10-02 17:38:00,764 INFO researchpulse POST /api/v1/auth/login 200 3.6ms
+2026-10-02 17:38:07,707 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AUTHLASTNAME%28Kethineni%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:38:14,969 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AUTHLASTNAME%28Kethineni%29&count=25&start=25&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:38:16,890 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AUTHLASTNAME%28Kethineni%29&count=25&start=50&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:38:25,497 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AUTHLASTNAME%28Kethineni%29&count=25&start=75&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:38:28,720 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AUTHLASTNAME%28Kethineni%29&count=25&start=100&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:38:28,725 INFO researchpulse POST /api/v1/faculty/search 200 27934.5ms
+2026-10-02 17:38:35,637 INFO researchpulse POST /api/v1/auth/login 200 1.3ms
+2026-10-02 17:38:39,140 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2836086160000%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:38:39,798 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=DjKGVyUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:38:39,852 INFO researchpulse POST /api/v1/faculty/fac_vfstr_60f97ad100b400af/sync 200 4201.2ms
+2026-10-02 17:52:22,816 INFO researchpulse GET /api/v1/history 200 11.5ms
+2026-10-02 17:52:22,818 INFO researchpulse GET /api/v1/health 200 13.9ms
+2026-10-02 17:52:22,823 INFO researchpulse GET /api/v1/authors 200 14.4ms
+2026-10-02 17:52:22,828 INFO researchpulse GET /api/v1/history 200 8.1ms
+2026-10-02 17:52:22,847 INFO researchpulse GET /api/v1/health 200 25.8ms
+2026-10-02 17:52:22,852 INFO researchpulse GET /api/v1/authors 200 25.1ms
+2026-10-02 17:52:23,073 INFO researchpulse GET /api/v1/history 200 5.7ms
+2026-10-02 17:52:23,075 INFO researchpulse GET /api/v1/health 200 8.8ms
+2026-10-02 17:52:23,082 INFO researchpulse GET /api/v1/authors 200 13.9ms
+2026-10-02 17:52:23,084 INFO researchpulse GET /api/v1/history 200 6.2ms
+2026-10-02 17:52:23,087 INFO researchpulse GET /api/v1/health 200 7.2ms
+2026-10-02 17:52:23,092 INFO researchpulse GET /api/v1/authors 200 7.3ms
+2026-10-02 17:52:23,753 INFO researchpulse GET /api/v1/history 200 12.3ms
+2026-10-02 17:52:23,756 INFO researchpulse GET /api/v1/authors 200 13.1ms
+2026-10-02 17:52:23,758 INFO researchpulse GET /api/v1/health 200 17.0ms
+2026-10-02 17:52:23,764 INFO researchpulse GET /api/v1/health 200 3.0ms
+2026-10-02 17:52:23,770 INFO researchpulse GET /api/v1/history 200 4.0ms
+2026-10-02 17:52:23,772 INFO researchpulse GET /api/v1/authors 200 5.9ms
+2026-10-02 17:52:31,701 INFO researchpulse GET /api/v1/health 200 4.7ms
+2026-10-02 17:52:31,702 INFO researchpulse GET /api/v1/history 200 4.0ms
+2026-10-02 17:52:31,707 INFO researchpulse GET /api/v1/authors 200 7.8ms
+2026-10-02 17:52:31,709 INFO researchpulse GET /api/v1/history 200 3.1ms
+2026-10-02 17:52:31,711 INFO researchpulse GET /api/v1/health 200 7.1ms
+2026-10-02 17:52:31,715 INFO researchpulse GET /api/v1/authors 200 6.6ms
+2026-10-02 17:56:13,433 INFO researchpulse POST /api/v1/auth/login 200 2.9ms
+2026-10-02 17:56:13,460 INFO researchpulse GET /api/v1/health 200 9.3ms
+2026-10-02 17:56:13,486 INFO researchpulse GET /api/v1/exports 200 4.2ms
+2026-10-02 17:56:13,499 INFO researchpulse GET /api/v1/review/queue 200 6.9ms
+2026-10-02 17:56:13,525 INFO researchpulse GET /api/v1/analytics/ranking 200 11.6ms
+2026-10-02 17:56:13,548 INFO researchpulse GET /api/v1/sync/batch/status 200 3.6ms
+2026-10-02 17:56:13,574 INFO researchpulse GET /api/v1/maintenance/status 200 13.6ms
+2026-10-02 17:56:13,608 INFO researchpulse GET /api/v1/exports/directory 200 15.9ms
+2026-10-02 17:56:13,625 INFO researchpulse GET /api/v1/maintenance/status 200 14.6ms
+2026-10-02 17:56:13,648 INFO researchpulse GET /api/v1/review/queue 200 9.0ms
+2026-10-02 17:56:21,880 INFO researchpulse POST /api/v1/auth/login 200 1.0ms
+2026-10-02 17:56:21,907 INFO researchpulse GET /api/v1/exports/directory 200 12.4ms
+2026-10-02 17:56:28,377 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2855903646700%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:56:31,208 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=D1D_W5QAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:56:36,682 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857213000984%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:56:39,908 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=K6_1S-wAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:56:46,586 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857201702957%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:56:49,935 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=-cHefV4AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:56:52,254 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857204239510%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:56:55,358 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=sg24b4gAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:57:06,074 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857200582300%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:57:09,401 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=KNXi4UUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:57:15,018 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=rwo7mJQAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:57:17,390 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=3xqAdb4AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:57:19,000 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2859740901400%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:57:20,595 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=M69L1KAAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:57:22,422 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2856880075700%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:57:25,846 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=Bxr-QJBomFgC&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:57:27,249 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2836086160000%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:57:28,273 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=DjKGVyUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:57:36,622 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2854788460700%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:57:38,480 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=j70w_vAAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:57:46,502 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857202010250%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:57:50,895 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=mDgoX6QAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:57:52,646 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857133040500%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:57:55,063 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=YGk_QkMAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:57:56,476 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857193483703%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:57:58,433 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=BapjRUUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:58:01,508 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2855314419900%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:58:04,106 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=nu5Ie-QAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:58:07,720 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2856154701000%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:58:17,813 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=Q5PQ6MQAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:58:19,252 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857191845299%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:58:22,750 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=A86jC-8AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:58:28,182 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2836700722300%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:58:30,470 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=LHi6RVgAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:58:32,062 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=1OZ_TlQAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:58:36,261 INFO researchpulse POST /api/v1/auth/login 200 2.0ms
+2026-10-02 17:58:36,845 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857564611400%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:58:39,722 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=gxKJ9e0AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:58:44,642 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2855903646700%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:58:45,361 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857208867122%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:58:46,458 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=D1D_W5QAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:58:47,217 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=-zTfBuoAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:58:47,756 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857213000984%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:58:48,715 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=K6_1S-wAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:58:49,940 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=IrONQYIAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:58:57,183 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857201702957%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:58:57,717 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=-cHefV4AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:58:59,594 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2858203778500%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:58:59,609 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857204239510%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:59:00,980 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=sg24b4gAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:01,931 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=tVSeXYMAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:03,608 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857192000497%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:59:05,751 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=hbjCqX0AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:07,100 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857216760688%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:59:08,877 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=Lu_o24sAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:10,825 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=CwjLYooAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:11,253 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857200582300%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:59:12,102 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=KNXi4UUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:12,278 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857209474042%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:59:13,152 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=rwo7mJQAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:13,836 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=3xqAdb4AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:14,698 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=EfeWWsEAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:16,166 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2859740901400%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:59:18,332 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=M69L1KAAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:19,597 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2856880075700%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:59:20,248 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=Bxr-QJBomFgC&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:20,306 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857204242975%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:59:26,636 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=pWRE3pUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:26,749 INFO researchpulse POST /api/v1/sync/batch 200 184821.8ms
+2026-10-02 17:59:28,394 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2836086160000%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:59:29,470 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=DjKGVyUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:31,733 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2854788460700%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:59:32,259 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=j70w_vAAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:35,913 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857202010250%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:59:37,071 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=mDgoX6QAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:39,178 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857133040500%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:59:40,623 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=YGk_QkMAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:43,850 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857193483703%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:59:44,559 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=BapjRUUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:59:46,195 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2855314419900%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 17:59:46,998 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=nu5Ie-QAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:00:12,619 WARNING researchpulse.http provider=scopus attempt=1/4 transport error=The read operation timed out retrying_in=0.38s
+2026-10-02 18:00:30,103 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2856154701000%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:00:31,322 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=Q5PQ6MQAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:00:35,074 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857191845299%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:00:36,232 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=A86jC-8AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:00:41,384 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2836700722300%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:00:43,092 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=LHi6RVgAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:00:44,368 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=1OZ_TlQAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:00:46,779 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857564611400%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:00:50,198 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=gxKJ9e0AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:00:55,354 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857208867122%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:00:56,538 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=-zTfBuoAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:00:57,751 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=IrONQYIAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:00:59,691 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2858203778500%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:01:00,978 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=tVSeXYMAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:01:03,148 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857192000497%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:01:04,628 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=hbjCqX0AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:01:14,265 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857216760688%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:01:17,510 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=Lu_o24sAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:01:18,685 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=CwjLYooAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:01:20,545 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857209474042%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:01:21,515 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=EfeWWsEAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:01:27,796 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857204242975%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:01:32,898 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=pWRE3pUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:01:33,031 INFO researchpulse POST /api/v1/sync/batch 200 176741.9ms
+2026-10-02 18:01:43,717 INFO researchpulse POST /api/v1/auth/login 200 3.4ms
+2026-10-02 18:01:50,782 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2855903646700%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:01:51,974 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=D1D_W5QAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:01:54,139 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857213000984%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:01:55,629 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=K6_1S-wAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:01:58,178 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857201702957%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:01:59,174 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=-cHefV4AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:02:04,849 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857204239510%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:02:09,019 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=sg24b4gAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:02:17,435 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857200582300%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:02:18,415 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=KNXi4UUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:02:19,505 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=rwo7mJQAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:02:20,797 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=3xqAdb4AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:02:25,834 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2859740901400%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:02:27,256 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=M69L1KAAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:02:32,325 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2856880075700%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:02:33,418 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=Bxr-QJBomFgC&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:02:39,745 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2836086160000%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:02:40,820 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=DjKGVyUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:02:43,419 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2854788460700%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:02:45,284 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=j70w_vAAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:02:51,183 INFO researchpulse POST /api/v1/auth/login 200 3.3ms
+2026-10-02 18:02:51,218 INFO researchpulse GET /api/v1/maintenance/status 200 30.4ms
+2026-10-02 18:02:51,231 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857202010250%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:02:52,088 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=mDgoX6QAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:02:56,480 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857133040500%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:03:01,334 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=YGk_QkMAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:03:05,385 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857193483703%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:03:06,276 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=BapjRUUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:03:12,097 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2855314419900%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:03:14,703 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=nu5Ie-QAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:03:18,132 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2856154701000%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:03:18,947 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=Q5PQ6MQAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:03:21,533 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857191845299%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:03:22,429 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=A86jC-8AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:03:29,160 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2836700722300%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:03:33,306 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=LHi6RVgAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:03:34,426 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=1OZ_TlQAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:03:39,361 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857564611400%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:03:42,688 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=gxKJ9e0AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:03:45,837 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857208867122%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:03:46,838 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=-zTfBuoAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:03:47,711 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=IrONQYIAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:03:51,405 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2858203778500%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:03:52,336 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=tVSeXYMAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:03:55,041 INFO researchpulse POST /api/v1/auth/login 200 2.2ms
+2026-10-02 18:03:55,071 INFO researchpulse GET /api/v1/health 200 2.4ms
+2026-10-02 18:03:55,086 INFO researchpulse GET /api/v1/exports 200 2.5ms
+2026-10-02 18:03:55,112 INFO researchpulse GET /api/v1/review/queue 200 12.5ms
+2026-10-02 18:03:55,124 INFO researchpulse GET /api/v1/review/links 200 6.3ms
+2026-10-02 18:03:55,138 INFO researchpulse GET /api/v1/audit 200 7.6ms
+2026-10-02 18:03:55,171 INFO researchpulse GET /api/v1/analytics/ranking 200 9.0ms
+2026-10-02 18:03:55,202 INFO researchpulse GET /api/v1/analytics/cohort 200 9.2ms
+2026-10-02 18:03:55,221 INFO researchpulse GET /api/v1/analytics/compare 200 16.3ms
+2026-10-02 18:03:55,234 INFO researchpulse GET /api/v1/analytics/dedupe/fac_vfstr_60f97ad100b400af 200 10.3ms
+2026-10-02 18:03:55,244 INFO researchpulse GET /api/v1/analytics/source-comparison/fac_vfstr_60f97ad100b400af 200 5.7ms
+2026-10-02 18:03:55,275 INFO researchpulse GET /api/v1/sync/batch/status 200 5.4ms
+2026-10-02 18:03:55,281 INFO researchpulse GET /api/v1/sync/failures 200 3.6ms
+2026-10-02 18:03:55,322 INFO researchpulse GET /api/v1/maintenance/status 200 20.3ms
+2026-10-02 18:03:55,478 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857192000497%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:03:56,333 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=hbjCqX0AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:04:01,018 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857216760688%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:04:01,486 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=Lu_o24sAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:04:01,947 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=CwjLYooAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:04:04,811 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857209474042%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:04:05,311 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=EfeWWsEAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:04:10,967 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857204242975%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:04:15,128 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=pWRE3pUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:04:15,219 INFO researchpulse POST /api/v1/sync/batch 200 151497.9ms
+2026-10-02 18:05:22,778 INFO researchpulse POST /api/v1/auth/login 200 1.0ms
+2026-10-02 18:05:22,782 INFO researchpulse GET /api/v1/health 200 3.0ms
+2026-10-02 18:05:22,806 INFO researchpulse GET /api/v1/maintenance/status 200 12.1ms
+2026-10-02 18:05:22,812 INFO researchpulse GET /api/v1/review/queue 200 3.7ms
+2026-10-02 18:05:22,829 INFO researchpulse GET /api/v1/sync/failures 200 3.9ms
+2026-10-02 18:07:39,707 INFO researchpulse GET /api/v1/history 200 9.1ms
+2026-10-02 18:07:39,710 INFO researchpulse GET /api/v1/health 200 12.7ms
+2026-10-02 18:07:39,717 INFO researchpulse GET /api/v1/authors 200 17.8ms
+2026-10-02 18:07:39,722 INFO researchpulse GET /api/v1/history 200 9.8ms
+2026-10-02 18:07:39,726 INFO researchpulse GET /api/v1/health 200 11.4ms
+2026-10-02 18:07:39,730 INFO researchpulse GET /api/v1/authors 200 9.9ms
+2026-10-02 18:07:42,034 INFO researchpulse GET /api/v1/health 200 6.4ms
+2026-10-02 18:07:45,010 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 22.1ms
+2026-10-02 18:07:45,014 INFO researchpulse GET /api/v1/authors 200 28.6ms
+2026-10-02 18:07:45,016 INFO researchpulse GET /api/v1/authors/departments 200 28.5ms
+2026-10-02 18:07:49,663 INFO researchpulse GET /api/v1/authors/vfstr_94e06f66ffe4684224a8/profile 200 38.1ms
+2026-10-02 18:07:49,839 INFO researchpulse GET /api/v1/faculty/fac_vfstr_d8631ae4a538926d/monthly-history 200 10.1ms
+2026-10-02 18:08:06,845 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 14.8ms
+2026-10-02 18:08:06,847 INFO researchpulse GET /api/v1/authors/departments 200 17.6ms
+2026-10-02 18:08:06,850 INFO researchpulse GET /api/v1/authors 200 23.8ms
+2026-10-02 18:08:12,355 INFO researchpulse POST /api/v1/auth/login 200 2.3ms
+2026-10-02 18:08:12,589 INFO researchpulse GET /api/v1/history 200 4.8ms
+2026-10-02 18:08:12,592 INFO researchpulse GET /api/v1/health 200 8.2ms
+2026-10-02 18:08:12,593 INFO researchpulse GET /api/v1/authors 200 8.7ms
+2026-10-02 18:08:12,624 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 15.1ms
+2026-10-02 18:08:12,627 INFO researchpulse GET /api/v1/authors/departments 200 19.1ms
+2026-10-02 18:08:12,631 INFO researchpulse GET /api/v1/authors 200 23.2ms
+2026-10-02 18:08:15,934 INFO researchpulse GET /api/v1/sync/batch/status 200 18.8ms
+2026-10-02 18:08:15,935 INFO researchpulse GET /api/v1/sync/failures 200 19.3ms
+2026-10-02 18:08:15,950 INFO researchpulse GET /api/v1/maintenance/status 200 33.6ms
+2026-10-02 18:08:19,243 INFO researchpulse POST /api/v1/sync/batch 200 128.8ms
+2026-10-02 18:08:19,277 INFO researchpulse GET /api/v1/sync/batch/status 200 26.8ms
+2026-10-02 18:08:19,278 INFO researchpulse GET /api/v1/sync/failures 200 27.1ms
+2026-10-02 18:08:19,286 INFO researchpulse GET /api/v1/maintenance/status 200 34.1ms
+2026-10-02 18:08:24,213 INFO researchpulse POST /api/v1/maintenance/backup 200 35.0ms
+2026-10-02 18:08:24,229 INFO researchpulse GET /api/v1/sync/batch/status 200 11.5ms
+2026-10-02 18:08:24,236 INFO researchpulse GET /api/v1/sync/failures 200 17.7ms
+2026-10-02 18:08:24,247 INFO researchpulse GET /api/v1/maintenance/status 200 28.0ms
+2026-10-02 18:08:25,103 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2858203778500%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:08:29,692 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=tVSeXYMAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:08:30,939 INFO researchpulse GET /api/v1/sync/batch/status 200 19.2ms
+2026-10-02 18:08:30,957 INFO researchpulse GET /api/v1/sync/failures 200 34.9ms
+2026-10-02 18:08:30,999 INFO researchpulse GET /api/v1/maintenance/status 200 77.1ms
+2026-10-02 18:08:31,588 INFO researchpulse GET /api/v1/analytics/cohort 200 13.6ms
+2026-10-02 18:08:31,594 INFO researchpulse GET /api/v1/analytics/ranking 200 22.1ms
+2026-10-02 18:08:33,310 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857193483703%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:08:38,127 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=BapjRUUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:08:43,368 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857216760688%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:08:44,391 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=Lu_o24sAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:08:44,719 INFO researchpulse GET /api/v1/review/queue 200 10.3ms
+2026-10-02 18:08:45,255 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=CwjLYooAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:08:49,746 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857209474042%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:08:50,748 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=EfeWWsEAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:08:51,477 INFO researchpulse GET /api/v1/exports 200 2.9ms
+2026-10-02 18:08:55,384 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857204239510%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:08:56,788 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=sg24b4gAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:08:58,009 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=1OZ_TlQAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:09:01,163 INFO researchpulse GET /api/v1/exports/directory 200 58.1ms
+2026-10-02 18:09:04,660 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2836086160000%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:09:11,128 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=DjKGVyUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:09:18,677 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857200582300%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:09:19,674 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=KNXi4UUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:09:20,440 INFO researchpulse GET /api/v1/authors/departments 200 10.9ms
+2026-10-02 18:09:20,453 INFO researchpulse GET /api/v1/authors 200 23.8ms
+2026-10-02 18:09:20,482 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 49.7ms
+2026-10-02 18:09:24,653 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2854788460700%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:09:27,706 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=j70w_vAAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:09:31,802 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857201702957%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:09:32,941 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=-cHefV4AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:09:34,661 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857191845299%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:09:35,804 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=A86jC-8AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:09:41,551 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857202010250%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:09:44,022 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=mDgoX6QAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:09:48,237 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857213000984%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:09:49,562 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=K6_1S-wAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:09:56,818 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2836700722300%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:09:57,714 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=LHi6RVgAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:10:01,671 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2856154701000%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:10:06,284 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=Q5PQ6MQAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:10:08,421 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857192000497%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:10:09,210 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=hbjCqX0AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:10:14,787 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857564611400%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:10:20,334 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=gxKJ9e0AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:10:25,140 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857133040500%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:10:26,518 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=YGk_QkMAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:10:29,070 INFO researchpulse GET /api/v1/health 200 11.0ms
+2026-10-02 18:10:29,072 INFO researchpulse GET /api/v1/history 200 11.5ms
+2026-10-02 18:10:29,078 INFO researchpulse GET /api/v1/authors 200 14.9ms
+2026-10-02 18:10:29,081 INFO researchpulse GET /api/v1/history 200 5.6ms
+2026-10-02 18:10:29,086 INFO researchpulse GET /api/v1/health 200 12.5ms
+2026-10-02 18:10:29,096 INFO researchpulse GET /api/v1/history 200 7.0ms
+2026-10-02 18:10:29,099 INFO researchpulse GET /api/v1/health 200 8.9ms
+2026-10-02 18:10:29,105 INFO researchpulse GET /api/v1/authors 200 20.6ms
+2026-10-02 18:10:29,112 INFO researchpulse GET /api/v1/history 200 11.9ms
+2026-10-02 18:10:29,117 INFO researchpulse GET /api/v1/health 200 8.4ms
+2026-10-02 18:10:29,120 INFO researchpulse GET /api/v1/authors 200 10.9ms
+2026-10-02 18:10:29,132 INFO researchpulse GET /api/v1/authors 200 8.5ms
+2026-10-02 18:10:29,281 INFO researchpulse GET /api/v1/health 200 9.7ms
+2026-10-02 18:10:29,286 INFO researchpulse GET /api/v1/history 200 10.4ms
+2026-10-02 18:10:29,292 INFO researchpulse GET /api/v1/authors 200 15.8ms
+2026-10-02 18:10:29,311 INFO researchpulse GET /api/v1/health 200 21.8ms
+2026-10-02 18:10:29,315 INFO researchpulse GET /api/v1/history 200 25.2ms
+2026-10-02 18:10:29,329 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 20.4ms
+2026-10-02 18:10:29,334 INFO researchpulse GET /api/v1/authors 200 40.6ms
+2026-10-02 18:10:29,341 INFO researchpulse GET /api/v1/authors 200 29.1ms
+2026-10-02 18:10:29,342 INFO researchpulse GET /api/v1/authors/departments 200 33.1ms
+2026-10-02 18:10:29,359 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 20.1ms
+2026-10-02 18:10:29,386 INFO researchpulse GET /api/v1/authors/departments 200 26.7ms
+2026-10-02 18:10:29,388 INFO researchpulse GET /api/v1/authors 200 43.0ms
+2026-10-02 18:10:31,139 INFO researchpulse GET /api/v1/health 200 11.2ms
+2026-10-02 18:10:31,143 INFO researchpulse GET /api/v1/history 200 9.7ms
+2026-10-02 18:10:31,153 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 17.7ms
+2026-10-02 18:10:31,155 INFO researchpulse GET /api/v1/authors 200 21.2ms
+2026-10-02 18:10:31,159 INFO researchpulse GET /api/v1/history 200 6.8ms
+2026-10-02 18:10:31,165 INFO researchpulse GET /api/v1/health 200 22.2ms
+2026-10-02 18:10:31,169 INFO researchpulse GET /api/v1/authors 200 33.6ms
+2026-10-02 18:10:31,171 INFO researchpulse GET /api/v1/authors/departments 200 35.5ms
+2026-10-02 18:10:31,175 INFO researchpulse GET /api/v1/authors 200 14.0ms
+2026-10-02 18:10:31,205 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 10.5ms
+2026-10-02 18:10:31,209 INFO researchpulse GET /api/v1/authors/departments 200 15.8ms
+2026-10-02 18:10:31,214 INFO researchpulse GET /api/v1/authors 200 21.8ms
+2026-10-02 18:10:33,074 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857208867122%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:10:33,596 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=-zTfBuoAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:10:34,204 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=IrONQYIAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:10:37,698 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2855903646700%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:10:41,223 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=D1D_W5QAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:10:44,879 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857204242975%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:10:45,978 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=pWRE3pUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:10:46,699 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=3xqAdb4AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:10:47,403 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=rwo7mJQAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:10:50,482 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2856880075700%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:10:51,264 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=Bxr-QJBomFgC&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:10:55,259 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2859740901400%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:10:58,713 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=M69L1KAAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:11:04,876 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2855314419900%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
+2026-10-02 18:11:08,440 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=nu5Ie-QAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 18:11:09,953 INFO researchpulse GET /api/v1/history 200 13.6ms
+2026-10-02 18:11:09,967 INFO researchpulse GET /api/v1/health 200 30.7ms
+2026-10-02 18:11:09,987 INFO researchpulse GET /api/v1/authors 200 46.3ms
+2026-10-02 18:11:09,991 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 33.5ms
+2026-10-02 18:11:09,996 INFO researchpulse GET /api/v1/history 200 35.4ms
+2026-10-02 18:11:09,997 INFO researchpulse GET /api/v1/authors/departments 200 40.5ms
+2026-10-02 18:11:10,003 INFO researchpulse GET /api/v1/authors 200 50.5ms
+2026-10-02 18:11:10,010 INFO researchpulse GET /api/v1/health 200 23.3ms
+2026-10-02 18:11:10,023 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 23.4ms
+2026-10-02 18:11:10,029 INFO researchpulse GET /api/v1/authors/departments 200 26.5ms
+2026-10-02 18:11:10,033 INFO researchpulse GET /api/v1/authors 200 33.1ms
+2026-10-02 18:11:10,037 INFO researchpulse GET /api/v1/authors 200 25.0ms
+2026-10-02 23:33:15,584 INFO researchpulse GET /api/v1/health 200 143.1ms
+2026-10-02 23:33:15,611 INFO researchpulse GET /api/v1/history 200 210.7ms
+2026-10-02 23:33:15,613 INFO researchpulse GET /api/v1/authors 200 172.0ms
+2026-10-02 23:33:15,614 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 128.4ms
+2026-10-02 23:33:15,625 INFO researchpulse GET /api/v1/authors/departments 200 139.6ms
+2026-10-02 23:33:15,631 INFO researchpulse GET /api/v1/authors 200 146.2ms
+2026-10-02 23:33:15,634 INFO researchpulse GET /api/v1/health 200 18.0ms
+2026-10-02 23:33:15,648 INFO researchpulse GET /api/v1/history 200 6.2ms
+2026-10-02 23:33:15,654 INFO researchpulse GET /api/v1/authors 200 11.0ms
+2026-10-02 23:33:15,679 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 20.2ms
+2026-10-02 23:33:15,685 INFO researchpulse GET /api/v1/authors/departments 200 22.1ms
+2026-10-02 23:33:15,694 INFO researchpulse GET /api/v1/authors 200 17.2ms
+2026-10-02 23:36:49,468 INFO researchpulse GET /api/v1/health 200 43.8ms
+2026-10-02 23:36:49,472 INFO researchpulse GET /api/v1/history 200 46.8ms
+2026-10-02 23:36:49,477 INFO researchpulse GET /api/v1/authors 200 50.4ms
+2026-10-02 23:36:49,489 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 59.7ms
+2026-10-02 23:36:49,497 INFO researchpulse GET /api/v1/history 200 17.3ms
+2026-10-02 23:36:49,500 INFO researchpulse GET /api/v1/authors/departments 200 71.4ms
+2026-10-02 23:36:49,503 INFO researchpulse GET /api/v1/health 200 26.3ms
+2026-10-02 23:36:49,510 INFO researchpulse GET /api/v1/authors 200 81.6ms
+2026-10-02 23:36:49,512 INFO researchpulse GET /api/v1/authors 200 22.3ms
+2026-10-02 23:36:49,534 INFO researchpulse GET /api/v1/history 200 9.1ms
+2026-10-02 23:36:49,538 INFO researchpulse GET /api/v1/health 200 13.9ms
+2026-10-02 23:36:49,562 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 33.3ms
+2026-10-02 23:36:49,568 INFO researchpulse GET /api/v1/authors/departments 200 39.6ms
+2026-10-02 23:36:49,570 INFO researchpulse GET /api/v1/authors 200 41.5ms
+2026-10-02 23:36:49,576 INFO researchpulse GET /api/v1/authors 200 49.6ms
+2026-10-02 23:36:49,579 INFO researchpulse GET /api/v1/health 200 16.2ms
+2026-10-02 23:36:49,593 INFO researchpulse GET /api/v1/history 200 31.8ms
+2026-10-02 23:36:49,594 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 25.9ms
+2026-10-02 23:36:49,601 INFO researchpulse GET /api/v1/authors/departments 200 22.0ms
+2026-10-02 23:36:49,615 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 17.9ms
+2026-10-02 23:36:49,619 INFO researchpulse GET /api/v1/authors 200 34.7ms
+2026-10-02 23:36:49,624 INFO researchpulse GET /api/v1/authors 200 41.4ms
+2026-10-02 23:36:49,628 INFO researchpulse GET /api/v1/authors/departments 200 11.9ms
+2026-10-02 23:36:49,637 INFO researchpulse GET /api/v1/authors 200 11.2ms
+2026-10-02 23:37:01,266 INFO researchpulse GET /api/v1/health 200 16.6ms
+2026-10-02 23:37:01,271 INFO researchpulse GET /api/v1/history 200 20.9ms
+2026-10-02 23:37:01,286 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 20.1ms
+2026-10-02 23:37:01,288 INFO researchpulse GET /api/v1/authors 200 36.5ms
+2026-10-02 23:37:01,295 INFO researchpulse GET /api/v1/authors/departments 200 29.9ms
+2026-10-02 23:37:01,300 INFO researchpulse GET /api/v1/health 200 27.0ms
+2026-10-02 23:37:01,303 INFO researchpulse GET /api/v1/history 200 17.6ms
+2026-10-02 23:37:01,307 INFO researchpulse GET /api/v1/authors 200 44.4ms
+2026-10-02 23:37:01,313 INFO researchpulse GET /api/v1/authors 200 14.9ms
+2026-10-02 23:37:01,331 INFO researchpulse GET /api/v1/health 200 12.7ms
+2026-10-02 23:37:01,334 INFO researchpulse GET /api/v1/history 200 14.8ms
+2026-10-02 23:37:01,346 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 21.5ms
+2026-10-02 23:37:01,351 INFO researchpulse GET /api/v1/authors 200 29.9ms
+2026-10-02 23:37:01,359 INFO researchpulse GET /api/v1/authors/departments 200 37.7ms
+2026-10-02 23:37:01,360 INFO researchpulse GET /api/v1/history 200 13.5ms
+2026-10-02 23:37:01,378 INFO researchpulse GET /api/v1/health 200 33.6ms
+2026-10-02 23:37:01,386 INFO researchpulse GET /api/v1/authors 200 65.4ms
+2026-10-02 23:37:01,388 INFO researchpulse GET /api/v1/authors 200 33.0ms
+2026-10-02 23:37:01,418 INFO researchpulse GET /api/v1/history 200 40.4ms
+2026-10-02 23:37:01,419 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 38.4ms
+2026-10-02 23:37:01,423 INFO researchpulse GET /api/v1/health 200 37.2ms
+2026-10-02 23:37:01,428 INFO researchpulse GET /api/v1/authors/departments 200 48.2ms
+2026-10-02 23:37:01,435 INFO researchpulse GET /api/v1/history 200 8.3ms
+2026-10-02 23:37:01,448 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 20.3ms
+2026-10-02 23:37:01,451 INFO researchpulse GET /api/v1/authors 200 34.9ms
+2026-10-02 23:37:01,452 INFO researchpulse GET /api/v1/authors 200 34.7ms
+2026-10-02 23:37:01,462 INFO researchpulse GET /api/v1/health 200 32.3ms
+2026-10-02 23:37:01,466 INFO researchpulse GET /api/v1/authors/departments 200 34.5ms
+2026-10-02 23:37:01,478 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 24.0ms
+2026-10-02 23:37:01,488 INFO researchpulse GET /api/v1/authors 200 26.7ms
+2026-10-02 23:37:01,490 INFO researchpulse GET /api/v1/authors/departments 200 11.1ms
+2026-10-02 23:37:01,500 INFO researchpulse GET /api/v1/authors 200 40.9ms
+2026-10-02 23:37:01,501 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 15.5ms
+2026-10-02 23:37:01,512 INFO researchpulse GET /api/v1/authors/departments 200 9.3ms
+2026-10-02 23:37:01,516 INFO researchpulse GET /api/v1/authors 200 11.8ms
+2026-10-02 23:37:01,526 INFO researchpulse GET /api/v1/authors 200 8.2ms
+2026-10-02 23:37:55,533 INFO researchpulse GET /api/v1/history 200 14.7ms
+2026-10-02 23:37:55,537 INFO researchpulse GET /api/v1/health 200 19.5ms
+2026-10-02 23:37:55,557 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 30.2ms
+2026-10-02 23:37:55,562 INFO researchpulse GET /api/v1/authors 200 42.1ms
+2026-10-02 23:37:55,565 INFO researchpulse GET /api/v1/history 200 23.4ms
+2026-10-02 23:37:55,573 INFO researchpulse GET /api/v1/authors/departments 200 47.0ms
+2026-10-02 23:37:55,575 INFO researchpulse GET /api/v1/health 200 19.8ms
+2026-10-02 23:37:55,584 INFO researchpulse GET /api/v1/authors 200 61.8ms
+2026-10-02 23:37:55,604 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 22.4ms
+2026-10-02 23:37:55,609 INFO researchpulse GET /api/v1/authors 200 32.1ms
+2026-10-02 23:37:55,615 INFO researchpulse GET /api/v1/authors/departments 200 32.7ms
+2026-10-02 23:37:55,622 INFO researchpulse GET /api/v1/authors 200 31.9ms
+2026-10-02 23:38:25,216 INFO researchpulse POST /api/v1/auth/login 200 47.0ms
+2026-10-02 23:38:25,257 INFO researchpulse GET /api/v1/authors 200 17.0ms
+2026-10-02 23:38:41,344 INFO researchpulse POST /api/v1/auth/login 200 1.9ms
+2026-10-02 23:38:41,361 INFO researchpulse GET /api/v1/authors 200 11.0ms
+2026-10-02 23:41:01,697 INFO researchpulse GET /api/v1/health 200 12.6ms
+2026-10-02 23:41:01,751 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 46.3ms
+2026-10-02 23:41:01,754 INFO researchpulse GET /api/v1/history 200 67.3ms
+2026-10-02 23:41:01,757 INFO researchpulse GET /api/v1/authors 200 58.2ms
+2026-10-02 23:41:01,768 INFO researchpulse GET /api/v1/authors 200 66.7ms
+2026-10-02 23:41:01,771 INFO researchpulse GET /api/v1/authors/departments 200 66.7ms
+2026-10-02 23:41:01,787 INFO researchpulse GET /api/v1/health 200 72.9ms
+2026-10-02 23:41:01,792 INFO researchpulse GET /api/v1/history 200 20.1ms
+2026-10-02 23:41:01,797 INFO researchpulse GET /api/v1/authors 200 21.8ms
+2026-10-02 23:41:01,811 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 26.5ms
+2026-10-02 23:41:01,817 INFO researchpulse GET /api/v1/history 200 20.8ms
+2026-10-02 23:41:01,821 INFO researchpulse GET /api/v1/health 200 30.6ms
+2026-10-02 23:41:01,833 INFO researchpulse GET /api/v1/authors/departments 200 52.3ms
+2026-10-02 23:41:01,835 INFO researchpulse GET /api/v1/health 200 9.5ms
+2026-10-02 23:41:01,838 INFO researchpulse GET /api/v1/authors 200 25.8ms
+2026-10-02 23:41:01,840 INFO researchpulse GET /api/v1/history 200 18.7ms
+2026-10-02 23:41:01,855 INFO researchpulse GET /api/v1/authors 200 76.2ms
+2026-10-02 23:41:01,885 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 27.2ms
+2026-10-02 23:41:01,886 INFO researchpulse GET /api/v1/health 200 32.2ms
+2026-10-02 23:41:01,902 INFO researchpulse GET /api/v1/authors/departments 200 47.6ms
+2026-10-02 23:41:01,903 INFO researchpulse GET /api/v1/authors 200 60.1ms
+2026-10-02 23:41:01,904 INFO researchpulse GET /api/v1/history 200 50.2ms
+2026-10-02 23:41:01,913 INFO researchpulse GET /api/v1/authors 200 50.3ms
+2026-10-02 23:41:01,922 INFO researchpulse GET /api/v1/health 200 16.4ms
+2026-10-02 23:41:01,925 INFO researchpulse GET /api/v1/history 200 6.7ms
+2026-10-02 23:41:01,931 INFO researchpulse GET /api/v1/authors 200 13.6ms
+2026-10-02 23:41:01,969 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 25.7ms
+2026-10-02 23:41:01,973 INFO researchpulse GET /api/v1/history 200 35.1ms
+2026-10-02 23:41:01,983 INFO researchpulse GET /api/v1/health 200 45.9ms
+2026-10-02 23:41:01,984 INFO researchpulse GET /api/v1/authors 200 49.2ms
+2026-10-02 23:41:01,999 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 22.4ms
+2026-10-02 23:41:02,006 INFO researchpulse GET /api/v1/history 200 27.4ms
+2026-10-02 23:41:02,016 INFO researchpulse GET /api/v1/authors/departments 200 75.1ms
+2026-10-02 23:41:02,018 INFO researchpulse GET /api/v1/authors 200 78.4ms
+2026-10-02 23:41:02,030 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 25.0ms
+2026-10-02 23:41:02,037 INFO researchpulse GET /api/v1/authors 200 35.9ms
+2026-10-02 23:41:02,040 INFO researchpulse GET /api/v1/health 200 41.6ms
+2026-10-02 23:41:02,057 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 21.5ms
+2026-10-02 23:41:02,065 INFO researchpulse GET /api/v1/authors/departments 200 33.4ms
+2026-10-02 23:41:02,070 INFO researchpulse GET /api/v1/authors 200 37.8ms
+2026-10-02 23:41:02,077 INFO researchpulse GET /api/v1/authors 200 33.6ms
+2026-10-02 23:41:02,095 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 22.4ms
+2026-10-02 23:41:02,109 INFO researchpulse GET /api/v1/authors 200 30.6ms
+2026-10-02 23:41:02,116 INFO researchpulse GET /api/v1/authors/departments 200 41.7ms
+2026-10-02 23:41:02,126 INFO researchpulse GET /api/v1/authors/departments 200 7.3ms
+2026-10-02 23:41:02,131 INFO researchpulse GET /api/v1/authors 200 16.4ms
+2026-10-02 23:41:02,140 INFO researchpulse GET /api/v1/authors/departments 200 8.3ms
+2026-10-02 23:41:02,147 INFO researchpulse GET /api/v1/authors 200 12.7ms
+2026-10-02 23:41:02,276 INFO researchpulse GET /api/v1/history 200 7.5ms
+2026-10-02 23:41:02,279 INFO researchpulse GET /api/v1/health 200 11.6ms
+2026-10-02 23:41:02,286 INFO researchpulse GET /api/v1/authors 200 15.0ms
+2026-10-02 23:41:02,295 INFO researchpulse GET /api/v1/history 200 10.4ms
+2026-10-02 23:41:02,301 INFO researchpulse GET /api/v1/health 200 13.3ms
+2026-10-02 23:41:02,305 INFO researchpulse GET /api/v1/authors 200 15.9ms
+2026-10-02 23:41:02,312 INFO researchpulse GET /api/v1/authors/departments 200 9.9ms
+2026-10-02 23:41:02,322 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 15.0ms
+2026-10-02 23:41:02,326 INFO researchpulse GET /api/v1/authors 200 34.4ms
+2026-10-02 23:41:02,354 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 12.8ms
+2026-10-02 23:41:02,360 INFO researchpulse GET /api/v1/authors/departments 200 19.2ms
+2026-10-02 23:41:02,364 INFO researchpulse GET /api/v1/authors 200 24.9ms
+2026-10-02 23:41:02,591 INFO researchpulse GET /api/v1/history 200 7.5ms
+2026-10-02 23:41:02,610 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 20.7ms
+2026-10-02 23:41:02,612 INFO researchpulse GET /api/v1/health 200 30.2ms
+2026-10-02 23:41:02,618 INFO researchpulse GET /api/v1/authors/departments 200 29.3ms
+2026-10-02 23:41:02,619 INFO researchpulse GET /api/v1/authors 200 34.4ms
+2026-10-02 23:41:02,621 INFO researchpulse GET /api/v1/authors 200 35.0ms
+2026-10-02 23:41:02,628 INFO researchpulse GET /api/v1/history 200 17.6ms
+2026-10-02 23:41:02,635 INFO researchpulse GET /api/v1/authors/departments 200 11.0ms
+2026-10-02 23:41:02,642 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 15.9ms
+2026-10-02 23:41:02,644 INFO researchpulse GET /api/v1/health 200 21.8ms
+2026-10-02 23:41:02,647 INFO researchpulse GET /api/v1/authors 200 22.7ms
+2026-10-02 23:41:02,654 INFO researchpulse GET /api/v1/authors 200 26.1ms
+2026-10-02 23:45:26,704 INFO researchpulse GET /api/v1/authors/vfstr_9bce892d19ac26db2314/profile 200 112.0ms
+2026-10-02 23:45:26,950 INFO researchpulse GET /api/v1/faculty/fac_vfstr_7477225a46cdc7f9/monthly-history 200 20.9ms
+2026-10-02 23:45:41,248 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 23.6ms
+2026-10-02 23:45:41,256 INFO researchpulse GET /api/v1/authors/departments 200 31.4ms
+2026-10-02 23:45:41,263 INFO researchpulse GET /api/v1/authors 200 40.7ms
+2026-10-02 23:46:00,822 INFO researchpulse GET /api/v1/authors/vfstr_461271303c4fe218af23/profile 200 80.6ms
+2026-10-02 23:46:01,040 INFO researchpulse GET /api/v1/faculty/fac_vfstr_cfc7814b2004f9f0/monthly-history 200 14.4ms
+2026-10-02 23:46:15,338 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_cfc7814b2004f9f0 200 32.8ms
+2026-10-02 23:46:21,744 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_cfc7814b2004f9f0 200 232.0ms
+2026-10-02 23:46:24,001 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_cfc7814b2004f9f0 200 26.8ms
+2026-10-02 23:46:24,754 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_cfc7814b2004f9f0 200 34.7ms
+2026-10-02 23:46:26,728 INFO researchpulse GET /api/v1/authors 200 21.5ms
+2026-10-02 23:46:26,750 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 41.7ms
+2026-10-02 23:46:26,766 INFO researchpulse GET /api/v1/authors/departments 200 57.6ms
+2026-10-02 23:46:32,239 INFO researchpulse GET /api/v1/authors/vfstr_461271303c4fe218af23/profile 200 18.5ms
+2026-10-02 23:46:32,397 INFO researchpulse GET /api/v1/faculty/fac_vfstr_cfc7814b2004f9f0/monthly-history 200 9.6ms
+2026-10-02 23:46:38,115 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_cfc7814b2004f9f0 200 46.8ms
+2026-10-02 23:46:38,939 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_cfc7814b2004f9f0 200 21.4ms
+2026-10-02 23:46:39,530 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_cfc7814b2004f9f0 200 38.0ms
+2026-10-02 23:46:55,898 INFO researchpulse GET /api/v1/authors/vfstr_ce08aabd5af2ba6fef5c/profile 200 10.0ms
+2026-10-02 23:46:55,993 INFO researchpulse GET /api/v1/faculty/fac_vfstr_60f97ad100b400af/monthly-history 200 5.1ms
+2026-10-02 23:47:29,886 INFO researchpulse POST /api/v1/auth/login 200 1.5ms
+2026-10-02 23:47:29,919 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_1006498957590b9d 200 25.6ms
+2026-10-02 23:47:32,419 INFO researchpulse GET /api/v1/faculty/fac_vfstr_cfc7814b2004f9f0 200 14.0ms
+2026-10-02 23:47:38,309 INFO researchpulse POST /api/v1/auth/login 200 1.1ms
+2026-10-02 23:47:38,317 INFO researchpulse GET /api/v1/faculty/fac_vfstr_1006498957590b9d 200 6.4ms
+2026-10-02 23:47:56,009 INFO researchpulse GET /api/v1/faculty/fac_vfstr_60f97ad100b400af 200 4.7ms
+2026-10-02 23:48:32,409 INFO researchpulse GET /api/v1/faculty/fac_vfstr_cfc7814b2004f9f0 200 16.6ms
+2026-10-02 23:48:56,413 INFO researchpulse GET /api/v1/faculty/fac_vfstr_60f97ad100b400af 200 16.6ms
+2026-10-02 23:49:32,391 INFO researchpulse GET /api/v1/faculty/fac_vfstr_cfc7814b2004f9f0 200 5.8ms
+2026-10-02 23:49:56,399 INFO researchpulse GET /api/v1/faculty/fac_vfstr_60f97ad100b400af 200 14.4ms
+2026-10-02 23:50:32,415 INFO researchpulse GET /api/v1/faculty/fac_vfstr_cfc7814b2004f9f0 200 5.3ms
+2026-10-02 23:50:56,010 INFO researchpulse GET /api/v1/faculty/fac_vfstr_60f97ad100b400af 200 8.1ms
+2026-10-02 23:51:32,406 INFO researchpulse GET /api/v1/faculty/fac_vfstr_cfc7814b2004f9f0 200 5.8ms
+2026-10-02 23:51:56,011 INFO researchpulse GET /api/v1/faculty/fac_vfstr_60f97ad100b400af 200 6.4ms
+2026-10-02 23:52:32,446 INFO researchpulse GET /api/v1/faculty/fac_vfstr_cfc7814b2004f9f0 200 22.3ms
+2026-10-02 23:52:45,160 INFO researchpulse GET /api/v1/history 200 8.3ms
+2026-10-02 23:52:45,167 INFO researchpulse GET /api/v1/authors 200 17.3ms
+2026-10-02 23:52:45,173 INFO researchpulse GET /api/v1/health 200 20.7ms
+2026-10-02 23:52:45,176 INFO researchpulse GET /api/v1/history 200 9.6ms
+2026-10-02 23:52:45,185 INFO researchpulse GET /api/v1/health 200 7.8ms
+2026-10-02 23:52:45,188 INFO researchpulse GET /api/v1/authors 200 16.2ms
+2026-10-02 23:52:45,217 INFO researchpulse GET /api/v1/history 200 17.5ms
+2026-10-02 23:52:45,220 INFO researchpulse GET /api/v1/health 200 21.8ms
+2026-10-02 23:52:45,239 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 25.0ms
+2026-10-02 23:52:45,247 INFO researchpulse GET /api/v1/authors/departments 200 35.8ms
+2026-10-02 23:52:45,248 INFO researchpulse GET /api/v1/authors 200 39.2ms
+2026-10-02 23:52:45,249 INFO researchpulse GET /api/v1/authors 200 46.4ms
+2026-10-02 23:52:45,253 INFO researchpulse GET /api/v1/history 200 15.5ms
+2026-10-02 23:52:45,254 INFO researchpulse GET /api/v1/health 200 13.0ms
+2026-10-02 23:52:45,269 INFO researchpulse GET /api/v1/authors 200 13.3ms
+2026-10-02 23:52:45,275 INFO researchpulse GET /api/v1/history 200 10.7ms
+2026-10-02 23:52:45,285 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 18.7ms
+2026-10-02 23:52:45,292 INFO researchpulse GET /api/v1/health 200 29.7ms
+2026-10-02 23:52:45,298 INFO researchpulse GET /api/v1/authors 200 32.9ms
+2026-10-02 23:52:45,303 INFO researchpulse GET /api/v1/history 200 15.7ms
+2026-10-02 23:52:45,306 INFO researchpulse GET /api/v1/authors/departments 200 39.2ms
+2026-10-02 23:52:45,307 INFO researchpulse GET /api/v1/authors 200 35.0ms
+2026-10-02 23:52:45,311 INFO researchpulse GET /api/v1/health 200 13.4ms
+2026-10-02 23:52:45,319 INFO researchpulse GET /api/v1/authors 200 9.2ms
+2026-10-02 23:52:45,369 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 33.5ms
+2026-10-02 23:52:45,371 INFO researchpulse GET /api/v1/history 200 39.5ms
+2026-10-02 23:52:45,376 INFO researchpulse GET /api/v1/health 200 45.9ms
+2026-10-02 23:52:45,387 INFO researchpulse GET /api/v1/authors 200 54.5ms
+2026-10-02 23:52:45,388 INFO researchpulse GET /api/v1/authors/departments 200 52.5ms
+2026-10-02 23:52:45,389 INFO researchpulse GET /api/v1/authors 200 54.0ms
+2026-10-02 23:52:45,397 INFO researchpulse GET /api/v1/health 200 25.4ms
+2026-10-02 23:52:45,402 INFO researchpulse GET /api/v1/history 200 29.1ms
+2026-10-02 23:52:45,410 INFO researchpulse GET /api/v1/faculty/fac_vfstr_60f97ad100b400af/monthly-history 200 28.2ms
+2026-10-02 23:52:45,413 INFO researchpulse GET /api/v1/authors 200 40.6ms
+2026-10-02 23:52:45,416 INFO researchpulse GET /api/v1/history 200 30.9ms
+2026-10-02 23:52:45,420 INFO researchpulse GET /api/v1/health 200 33.5ms
+2026-10-02 23:52:45,426 INFO researchpulse GET /api/v1/authors 200 31.0ms
+2026-10-02 23:52:45,430 INFO researchpulse GET /api/v1/history 200 20.9ms
+2026-10-02 23:52:45,437 INFO researchpulse GET /api/v1/history 200 14.7ms
+2026-10-02 23:52:45,440 INFO researchpulse GET /api/v1/health 200 15.0ms
+2026-10-02 23:52:45,446 INFO researchpulse GET /api/v1/authors 200 26.8ms
+2026-10-02 23:52:45,450 INFO researchpulse GET /api/v1/health 200 35.2ms
+2026-10-02 23:52:45,453 INFO researchpulse GET /api/v1/history 200 11.3ms
+2026-10-02 23:52:45,457 INFO researchpulse GET /api/v1/health 200 11.4ms
+2026-10-02 23:52:45,458 INFO researchpulse GET /api/v1/authors 200 25.5ms
+2026-10-02 23:52:45,468 INFO researchpulse GET /api/v1/authors 200 6.6ms
+2026-10-02 23:52:45,590 INFO researchpulse GET /api/v1/history 200 8.3ms
+2026-10-02 23:52:45,593 INFO researchpulse GET /api/v1/health 200 11.1ms
+2026-10-02 23:52:45,603 INFO researchpulse GET /api/v1/authors 200 14.9ms
+2026-10-02 23:52:45,606 INFO researchpulse GET /api/v1/history 200 9.6ms
+2026-10-02 23:52:45,619 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 20.1ms
+2026-10-02 23:52:45,624 INFO researchpulse GET /api/v1/health 200 22.9ms
+2026-10-02 23:52:45,631 INFO researchpulse GET /api/v1/authors/departments 200 34.4ms
+2026-10-02 23:52:45,632 INFO researchpulse GET /api/v1/authors 200 22.7ms
+2026-10-02 23:52:45,636 INFO researchpulse GET /api/v1/authors 200 40.5ms
+2026-10-02 23:52:45,658 INFO researchpulse GET /api/v1/history 200 7.7ms
+2026-10-02 23:52:45,665 INFO researchpulse GET /api/v1/health 200 15.9ms
+2026-10-02 23:52:45,666 INFO researchpulse GET /api/v1/faculty/fac_vfstr_cfc7814b2004f9f0/monthly-history 200 20.4ms
+2026-10-02 23:52:45,669 INFO researchpulse GET /api/v1/authors 200 18.4ms
+2026-10-02 23:52:45,674 INFO researchpulse GET /api/v1/history 200 10.3ms
+2026-10-02 23:52:45,677 INFO researchpulse GET /api/v1/health 200 9.0ms
+2026-10-02 23:52:45,682 INFO researchpulse GET /api/v1/authors 200 9.8ms
+2026-10-02 23:52:58,612 INFO researchpulse GET /api/v1/health 200 16.2ms
+2026-10-02 23:52:58,620 INFO researchpulse GET /api/v1/history 200 23.1ms
+2026-10-02 23:52:58,629 INFO researchpulse GET /api/v1/authors 200 31.4ms
+2026-10-02 23:52:58,635 INFO researchpulse GET /api/v1/history 200 7.0ms
+2026-10-02 23:52:58,637 INFO researchpulse GET /api/v1/health 200 8.9ms
+2026-10-02 23:52:58,646 INFO researchpulse GET /api/v1/history 200 7.9ms
+2026-10-02 23:52:58,647 INFO researchpulse GET /api/v1/authors 200 15.1ms
+2026-10-02 23:52:58,649 INFO researchpulse GET /api/v1/health 200 9.9ms
+2026-10-02 23:52:58,657 INFO researchpulse GET /api/v1/history 200 6.7ms
+2026-10-02 23:52:58,661 INFO researchpulse GET /api/v1/health 200 9.2ms
+2026-10-02 23:52:58,665 INFO researchpulse GET /api/v1/authors 200 14.0ms
+2026-10-02 23:52:58,670 INFO researchpulse GET /api/v1/history 200 7.2ms
+2026-10-02 23:52:58,675 INFO researchpulse GET /api/v1/health 200 10.8ms
+2026-10-02 23:52:58,690 INFO researchpulse GET /api/v1/history 200 16.8ms
+2026-10-02 23:52:58,693 INFO researchpulse GET /api/v1/authors 200 24.9ms
+2026-10-02 23:52:58,701 INFO researchpulse GET /api/v1/health 200 22.3ms
+2026-10-02 23:52:58,704 INFO researchpulse GET /api/v1/history 200 8.3ms
+2026-10-02 23:52:58,711 INFO researchpulse GET /api/v1/authors 200 14.5ms
+2026-10-02 23:52:58,715 INFO researchpulse GET /api/v1/history 200 8.4ms
+2026-10-02 23:52:58,719 INFO researchpulse GET /api/v1/health 200 13.9ms
+2026-10-02 23:52:58,726 INFO researchpulse GET /api/v1/history 200 7.1ms
+2026-10-02 23:52:58,730 INFO researchpulse GET /api/v1/authors 200 15.1ms
+2026-10-02 23:52:58,732 INFO researchpulse GET /api/v1/health 200 10.3ms
+2026-10-02 23:52:58,738 INFO researchpulse GET /api/v1/history 200 8.7ms
+2026-10-02 23:52:58,743 INFO researchpulse GET /api/v1/health 200 7.9ms
+2026-10-02 23:52:58,747 INFO researchpulse GET /api/v1/authors 200 13.4ms
+2026-10-02 23:52:58,751 INFO researchpulse GET /api/v1/history 200 9.0ms
+2026-10-02 23:52:58,756 INFO researchpulse GET /api/v1/health 200 9.1ms
+2026-10-02 23:52:58,760 INFO researchpulse GET /api/v1/history 200 5.6ms
+2026-10-02 23:52:58,764 INFO researchpulse GET /api/v1/authors 200 13.5ms
+2026-10-02 23:52:58,770 INFO researchpulse GET /api/v1/health 200 8.1ms
+2026-10-02 23:52:58,778 INFO researchpulse GET /api/v1/authors 200 10.6ms
+2026-10-02 23:52:58,782 INFO researchpulse GET /api/v1/health 200 8.6ms
+2026-10-02 23:52:58,787 INFO researchpulse GET /api/v1/authors 200 6.1ms
+2026-10-02 23:52:58,799 INFO researchpulse GET /api/v1/authors 200 7.8ms
+2026-10-02 23:52:58,806 INFO researchpulse GET /api/v1/health 200 8.9ms
+2026-10-02 23:52:58,808 INFO researchpulse GET /api/v1/history 200 5.9ms
+2026-10-02 23:52:58,817 INFO researchpulse GET /api/v1/authors 200 14.2ms
+2026-10-02 23:52:58,817 INFO researchpulse GET /api/v1/authors 200 14.7ms
+2026-10-02 23:52:58,821 INFO researchpulse GET /api/v1/history 200 7.2ms
+2026-10-02 23:52:58,823 INFO researchpulse GET /api/v1/health 200 11.5ms
+2026-10-02 23:52:58,830 INFO researchpulse GET /api/v1/authors 200 10.2ms
+2026-10-02 23:52:59,405 INFO researchpulse GET /api/v1/health 200 4.8ms
+2026-10-02 23:52:59,431 INFO researchpulse GET /api/v1/history 200 3.7ms
+2026-10-02 23:52:59,450 INFO researchpulse GET /api/v1/history 200 5.5ms
+2026-10-02 23:52:59,453 INFO researchpulse GET /api/v1/health 200 8.8ms
+2026-10-02 23:52:59,455 INFO researchpulse GET /api/v1/authors 200 12.0ms
+2026-10-02 23:52:59,470 INFO researchpulse GET /api/v1/health 200 6.8ms
+2026-10-02 23:52:59,478 INFO researchpulse GET /api/v1/authors 200 11.0ms
+2026-10-02 23:52:59,484 INFO researchpulse GET /api/v1/history 200 7.3ms
+2026-10-02 23:52:59,488 INFO researchpulse GET /api/v1/health 200 7.8ms
+2026-10-02 23:52:59,493 INFO researchpulse GET /api/v1/authors 200 11.2ms
+2026-10-02 23:52:59,498 INFO researchpulse GET /api/v1/history 200 7.6ms
+2026-10-02 23:52:59,507 INFO researchpulse GET /api/v1/authors 200 11.1ms
+2026-10-02 23:52:59,512 INFO researchpulse GET /api/v1/history 200 7.9ms
+2026-10-02 23:52:59,513 INFO researchpulse GET /api/v1/health 200 11.6ms
+2026-10-02 23:52:59,520 INFO researchpulse GET /api/v1/history 200 5.1ms
+2026-10-02 23:52:59,526 INFO researchpulse GET /api/v1/health 200 9.5ms
+2026-10-02 23:52:59,528 INFO researchpulse GET /api/v1/authors 200 16.5ms
+2026-10-02 23:52:59,543 INFO researchpulse GET /api/v1/authors 200 10.0ms
+2026-10-02 23:54:10,120 INFO researchpulse GET /api/v1/history 200 8.9ms
+2026-10-02 23:54:10,125 INFO researchpulse GET /api/v1/authors 200 17.7ms
+2026-10-02 23:54:10,128 INFO researchpulse GET /api/v1/history 200 4.5ms
+2026-10-02 23:54:10,133 INFO researchpulse GET /api/v1/health 200 21.1ms
+2026-10-02 23:54:10,153 INFO researchpulse GET /api/v1/authors 200 21.6ms
+2026-10-02 23:54:10,159 INFO researchpulse GET /api/v1/history 200 24.2ms
+2026-10-02 23:54:10,162 INFO researchpulse GET /api/v1/health 200 11.0ms
+2026-10-02 23:54:10,172 INFO researchpulse GET /api/v1/history 200 8.5ms
+2026-10-02 23:54:10,173 INFO researchpulse GET /api/v1/authors 200 17.1ms
+2026-10-02 23:54:10,178 INFO researchpulse GET /api/v1/health 200 9.5ms
+2026-10-02 23:54:10,188 INFO researchpulse GET /api/v1/history 200 10.9ms
+2026-10-02 23:54:10,192 INFO researchpulse GET /api/v1/authors 200 12.3ms
+2026-10-02 23:54:10,195 INFO researchpulse GET /api/v1/health 200 13.2ms
+2026-10-02 23:54:10,203 INFO researchpulse GET /api/v1/history 200 9.7ms
+2026-10-02 23:54:10,210 INFO researchpulse GET /api/v1/health 200 9.3ms
+2026-10-02 23:54:10,212 INFO researchpulse GET /api/v1/authors 200 14.0ms
+2026-10-02 23:54:10,218 INFO researchpulse GET /api/v1/history 200 10.8ms
+2026-10-02 23:54:10,225 INFO researchpulse GET /api/v1/health 200 10.8ms
+2026-10-02 23:54:10,227 INFO researchpulse GET /api/v1/history 200 6.2ms
+2026-10-02 23:54:10,231 INFO researchpulse GET /api/v1/authors 200 14.1ms
+2026-10-02 23:54:10,239 INFO researchpulse GET /api/v1/history 200 6.6ms
+2026-10-02 23:54:10,242 INFO researchpulse GET /api/v1/health 200 13.7ms
+2026-10-02 23:54:10,251 INFO researchpulse GET /api/v1/authors 200 15.7ms
+2026-10-02 23:54:10,253 INFO researchpulse GET /api/v1/history 200 7.9ms
+2026-10-02 23:54:10,258 INFO researchpulse GET /api/v1/health 200 11.9ms
+2026-10-02 23:54:10,263 INFO researchpulse GET /api/v1/history 200 7.2ms
+2026-10-02 23:54:10,267 INFO researchpulse GET /api/v1/authors 200 12.9ms
+2026-10-02 23:54:10,273 INFO researchpulse GET /api/v1/health 200 11.4ms
+2026-10-02 23:54:10,278 INFO researchpulse GET /api/v1/history 200 8.6ms
+2026-10-02 23:54:10,285 INFO researchpulse GET /api/v1/authors 200 10.0ms
+2026-10-02 23:54:10,296 INFO researchpulse GET /api/v1/health 200 6.9ms
+2026-10-02 23:54:10,300 INFO researchpulse GET /api/v1/history 200 9.4ms
+2026-10-02 23:54:10,306 INFO researchpulse GET /api/v1/authors 200 14.1ms
+2026-10-02 23:54:10,309 INFO researchpulse GET /api/v1/history 200 5.5ms
+2026-10-02 23:54:10,314 INFO researchpulse GET /api/v1/health 200 11.3ms
+2026-10-02 23:54:10,327 INFO researchpulse GET /api/v1/history 200 7.7ms
+2026-10-02 23:54:10,331 INFO researchpulse GET /api/v1/authors 200 19.9ms
+2026-10-02 23:54:10,336 INFO researchpulse GET /api/v1/health 200 17.3ms
+2026-10-02 23:54:10,341 INFO researchpulse GET /api/v1/health 200 19.5ms
+2026-10-02 23:54:10,343 INFO researchpulse GET /api/v1/authors 200 22.8ms
+2026-10-02 23:54:10,349 INFO researchpulse GET /api/v1/history 200 14.4ms
+2026-10-02 23:54:10,354 INFO researchpulse GET /api/v1/health 200 13.6ms
+2026-10-02 23:54:10,356 INFO researchpulse GET /api/v1/health 200 10.5ms
+2026-10-02 23:54:10,360 INFO researchpulse GET /api/v1/authors 200 23.3ms
+2026-10-02 23:54:10,366 INFO researchpulse GET /api/v1/authors 200 18.8ms
+2026-10-02 23:54:10,374 INFO researchpulse GET /api/v1/health 200 10.5ms
+2026-10-02 23:54:10,384 INFO researchpulse GET /api/v1/authors 200 11.1ms
+2026-10-02 23:54:10,394 INFO researchpulse GET /api/v1/authors 200 7.8ms
+2026-10-02 23:54:10,419 INFO researchpulse GET /api/v1/history 200 8.4ms
+2026-10-02 23:54:10,423 INFO researchpulse GET /api/v1/authors 200 12.0ms
+2026-10-02 23:54:10,428 INFO researchpulse GET /api/v1/health 200 18.5ms
+2026-10-02 23:54:10,433 INFO researchpulse GET /api/v1/history 200 8.0ms
+2026-10-02 23:54:10,462 INFO researchpulse GET /api/v1/authors 200 34.3ms
+2026-10-02 23:54:10,468 INFO researchpulse GET /api/v1/history 200 9.7ms
+2026-10-02 23:54:10,473 INFO researchpulse GET /api/v1/health 200 40.5ms
+2026-10-02 23:54:10,481 INFO researchpulse GET /api/v1/history 200 7.1ms
+2026-10-02 23:54:10,486 INFO researchpulse GET /api/v1/health 200 9.8ms
+2026-10-02 23:54:10,489 INFO researchpulse GET /api/v1/authors 200 18.7ms
+2026-10-02 23:54:10,494 INFO researchpulse GET /api/v1/history 200 7.2ms
+2026-10-02 23:54:10,501 INFO researchpulse GET /api/v1/health 200 10.7ms
+2026-10-02 23:54:10,505 INFO researchpulse GET /api/v1/authors 200 13.4ms
+2026-10-02 23:54:10,506 INFO researchpulse GET /api/v1/history 200 9.4ms
+2026-10-02 23:54:10,514 INFO researchpulse GET /api/v1/health 200 10.2ms
+2026-10-02 23:54:10,518 INFO researchpulse GET /api/v1/history 200 7.9ms
+2026-10-02 23:54:10,524 INFO researchpulse GET /api/v1/authors 200 15.4ms
+2026-10-02 23:54:10,528 INFO researchpulse GET /api/v1/health 200 10.6ms
+2026-10-02 23:54:10,530 INFO researchpulse GET /api/v1/history 200 9.3ms
+2026-10-02 23:54:10,538 INFO researchpulse GET /api/v1/health 200 4.8ms
+2026-10-02 23:54:10,543 INFO researchpulse GET /api/v1/authors 200 16.0ms
+2026-10-02 23:54:10,550 INFO researchpulse GET /api/v1/health 200 8.9ms
+2026-10-02 23:54:10,558 INFO researchpulse GET /api/v1/authors 200 9.1ms
+2026-10-02 23:54:10,570 INFO researchpulse GET /api/v1/authors 200 9.9ms
+2026-10-02 23:54:23,541 INFO researchpulse GET /api/v1/health 200 29.4ms
+2026-10-02 23:54:23,553 INFO researchpulse GET /api/v1/history 200 29.3ms
+2026-10-02 23:54:23,557 INFO researchpulse GET /api/v1/authors 200 32.4ms
+2026-10-02 23:54:23,563 INFO researchpulse GET /api/v1/health 200 14.1ms
+2026-10-02 23:54:23,569 INFO researchpulse GET /api/v1/history 200 11.1ms
+2026-10-02 23:54:23,576 INFO researchpulse GET /api/v1/health 200 9.0ms
+2026-10-02 23:54:23,579 INFO researchpulse GET /api/v1/authors 200 13.8ms
+2026-10-02 23:54:23,585 INFO researchpulse GET /api/v1/history 200 11.5ms
+2026-10-02 23:54:23,591 INFO researchpulse GET /api/v1/health 200 9.7ms
+2026-10-02 23:54:23,595 INFO researchpulse GET /api/v1/history 200 6.1ms
+2026-10-02 23:54:23,598 INFO researchpulse GET /api/v1/authors 200 15.1ms
+2026-10-02 23:54:23,607 INFO researchpulse GET /api/v1/history 200 7.2ms
+2026-10-02 23:54:23,610 INFO researchpulse GET /api/v1/health 200 12.8ms
+2026-10-02 23:54:23,619 INFO researchpulse GET /api/v1/authors 200 17.1ms
+2026-10-02 23:54:23,621 INFO researchpulse GET /api/v1/history 200 8.1ms
+2026-10-02 23:54:23,627 INFO researchpulse GET /api/v1/health 200 11.6ms
+2026-10-02 23:54:23,632 INFO researchpulse GET /api/v1/history 200 7.1ms
+2026-10-02 23:54:23,641 INFO researchpulse GET /api/v1/history 200 5.3ms
+2026-10-02 23:54:23,644 INFO researchpulse GET /api/v1/authors 200 21.2ms
+2026-10-02 23:54:23,648 INFO researchpulse GET /api/v1/health 200 14.3ms
+2026-10-02 23:54:23,656 INFO researchpulse GET /api/v1/history 200 8.5ms
+2026-10-02 23:54:23,661 INFO researchpulse GET /api/v1/health 200 9.0ms
+2026-10-02 23:54:23,671 INFO researchpulse GET /api/v1/history 200 10.6ms
+2026-10-02 23:54:23,672 INFO researchpulse GET /api/v1/authors 200 21.6ms
+2026-10-02 23:54:23,684 INFO researchpulse GET /api/v1/health 200 11.1ms
+2026-10-02 23:54:23,687 INFO researchpulse GET /api/v1/history 200 11.0ms
+2026-10-02 23:54:23,693 INFO researchpulse GET /api/v1/authors 200 15.7ms
+2026-10-02 23:54:23,697 INFO researchpulse GET /api/v1/history 200 6.3ms
+2026-10-02 23:54:23,700 INFO researchpulse GET /api/v1/health 200 11.4ms
+2026-10-02 23:54:23,709 INFO researchpulse GET /api/v1/history 200 6.0ms
+2026-10-02 23:54:23,715 INFO researchpulse GET /api/v1/health 200 9.8ms
+2026-10-02 23:54:23,718 INFO researchpulse GET /api/v1/authors 200 16.0ms
+2026-10-02 23:54:23,723 INFO researchpulse GET /api/v1/history 200 9.2ms
+2026-10-02 23:54:23,729 INFO researchpulse GET /api/v1/health 200 10.1ms
+2026-10-02 23:54:23,733 INFO researchpulse GET /api/v1/authors 200 11.8ms
+2026-10-02 23:54:23,734 INFO researchpulse GET /api/v1/history 200 7.8ms
+2026-10-02 23:54:23,744 INFO researchpulse GET /api/v1/history 200 6.2ms
+2026-10-02 23:54:23,747 INFO researchpulse GET /api/v1/health 200 12.3ms
+2026-10-02 23:54:23,752 INFO researchpulse GET /api/v1/authors 200 15.5ms
+2026-10-02 23:54:23,760 INFO researchpulse GET /api/v1/health 200 9.0ms
+2026-10-02 23:54:23,766 INFO researchpulse GET /api/v1/authors 200 11.1ms
+2026-10-02 23:54:23,798 INFO researchpulse GET /api/v1/health 200 29.7ms
+2026-10-02 23:54:23,800 INFO researchpulse GET /api/v1/authors 200 30.7ms
+2026-10-02 23:54:23,809 INFO researchpulse GET /api/v1/history 200 14.7ms
+2026-10-02 23:54:23,815 INFO researchpulse GET /api/v1/health 200 34.5ms
+2026-10-02 23:54:23,820 INFO researchpulse GET /api/v1/authors 200 23.8ms
+2026-10-02 23:54:23,824 INFO researchpulse GET /api/v1/health 200 21.2ms
+2026-10-02 23:54:23,828 INFO researchpulse GET /api/v1/authors 200 22.2ms
+2026-10-02 23:54:23,831 INFO researchpulse GET /api/v1/history 200 14.1ms
+2026-10-02 23:54:23,836 INFO researchpulse GET /api/v1/health 200 17.0ms
+2026-10-02 23:54:23,841 INFO researchpulse GET /api/v1/authors 200 17.3ms
+2026-10-02 23:54:23,844 INFO researchpulse GET /api/v1/authors 200 10.8ms
+2026-10-02 23:54:23,854 INFO researchpulse GET /api/v1/authors 200 5.4ms
+2026-10-02 23:54:23,866 INFO researchpulse GET /api/v1/authors 200 9.0ms
+2026-10-02 23:54:24,483 INFO researchpulse GET /api/v1/history 200 8.3ms
+2026-10-02 23:54:24,486 INFO researchpulse GET /api/v1/health 200 12.0ms
+2026-10-02 23:54:24,489 INFO researchpulse GET /api/v1/authors 200 13.2ms
+2026-10-02 23:54:24,497 INFO researchpulse GET /api/v1/history 200 8.6ms
+2026-10-02 23:54:24,502 INFO researchpulse GET /api/v1/health 200 11.9ms
+2026-10-02 23:54:24,506 INFO researchpulse GET /api/v1/authors 200 13.8ms
+2026-10-02 23:54:24,508 INFO researchpulse GET /api/v1/history 200 8.8ms
+2026-10-02 23:54:24,518 INFO researchpulse GET /api/v1/health 200 12.2ms
+2026-10-02 23:54:24,521 INFO researchpulse GET /api/v1/history 200 7.9ms
+2026-10-02 23:54:24,526 INFO researchpulse GET /api/v1/authors 200 16.0ms
+2026-10-02 23:54:24,531 INFO researchpulse GET /api/v1/health 200 8.3ms
+2026-10-02 23:54:24,536 INFO researchpulse GET /api/v1/history 200 10.3ms
+2026-10-02 23:54:24,541 INFO researchpulse GET /api/v1/health 200 7.0ms
+2026-10-02 23:54:24,547 INFO researchpulse GET /api/v1/history 200 7.4ms
+2026-10-02 23:54:24,549 INFO researchpulse GET /api/v1/authors 200 16.3ms
+2026-10-02 23:54:24,556 INFO researchpulse GET /api/v1/health 200 10.2ms
+2026-10-02 23:54:24,561 INFO researchpulse GET /api/v1/history 200 10.7ms
+2026-10-02 23:54:24,565 INFO researchpulse GET /api/v1/authors 200 13.0ms
+2026-10-02 23:54:24,570 INFO researchpulse GET /api/v1/health 200 11.0ms
+2026-10-02 23:54:24,572 INFO researchpulse GET /api/v1/history 200 8.2ms
+2026-10-02 23:54:24,581 INFO researchpulse GET /api/v1/authors 200 13.2ms
+2026-10-02 23:54:24,583 INFO researchpulse GET /api/v1/health 200 9.2ms
+2026-10-02 23:54:24,593 INFO researchpulse GET /api/v1/health 200 7.2ms
+2026-10-02 23:54:24,597 INFO researchpulse GET /api/v1/history 200 8.4ms
+2026-10-02 23:54:24,600 INFO researchpulse GET /api/v1/authors 200 15.6ms
+2026-10-02 23:54:24,608 INFO researchpulse GET /api/v1/history 200 6.6ms
+2026-10-02 23:54:24,612 INFO researchpulse GET /api/v1/health 200 15.5ms
+2026-10-02 23:54:24,616 INFO researchpulse GET /api/v1/authors 200 13.3ms
+2026-10-02 23:54:24,624 INFO researchpulse GET /api/v1/authors 200 6.1ms
+2026-10-02 23:54:24,634 INFO researchpulse GET /api/v1/authors 200 6.7ms
+2026-10-02 23:54:50,319 INFO researchpulse POST /api/v1/auth/login 200 2.2ms
+2026-10-02 23:54:50,349 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_1006498957590b9d 200 23.1ms
+2026-10-02 23:54:54,919 INFO researchpulse POST /api/v1/auth/login 200 1.9ms
+2026-10-02 23:54:54,969 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_1006498957590b9d 200 23.3ms
+2026-10-02 23:56:09,685 INFO researchpulse GET /api/v1/authors 200 27.7ms
+2026-10-02 23:56:09,697 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 15.0ms
+2026-10-02 23:56:09,710 INFO researchpulse GET /api/v1/authors/departments 200 34.1ms
+2026-10-02 23:56:19,851 INFO researchpulse GET /api/v1/authors/vfstr_9ee16e6d3f7e546fb522/profile 200 10.5ms
+2026-10-02 23:56:19,897 INFO researchpulse GET /api/v1/faculty/fac_vfstr_fe160f1a77a3db38/monthly-history 200 6.7ms
+2026-10-02 23:56:40,175 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_fe160f1a77a3db38 200 37.0ms
+2026-10-02 23:56:41,519 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_fe160f1a77a3db38 200 22.5ms
+2026-10-02 23:56:45,673 INFO researchpulse GET /api/v1/authors 200 18.9ms
+2026-10-02 23:56:45,674 INFO researchpulse GET /api/v1/authors/departments 200 19.5ms
+2026-10-02 23:56:45,683 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 27.1ms
+2026-10-02 23:56:45,694 INFO researchpulse GET /api/v1/authors/departments 200 10.2ms
+2026-10-02 23:56:45,694 INFO researchpulse GET /api/v1/authors 200 11.1ms
+2026-10-02 23:56:45,711 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 10.3ms
+2026-10-02 23:56:45,723 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 9.6ms
+2026-10-02 23:56:45,724 INFO researchpulse GET /api/v1/authors/departments 200 21.4ms
+2026-10-02 23:56:45,729 INFO researchpulse GET /api/v1/authors 200 25.0ms
+2026-10-02 23:56:45,739 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 12.5ms
+2026-10-02 23:56:45,743 INFO researchpulse GET /api/v1/authors/departments 200 13.1ms
+2026-10-02 23:56:45,746 INFO researchpulse GET /api/v1/authors 200 14.8ms
+2026-10-02 23:56:45,765 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 17.8ms
+2026-10-02 23:56:45,768 INFO researchpulse GET /api/v1/authors/departments 200 19.9ms
+2026-10-02 23:56:45,768 INFO researchpulse GET /api/v1/authors 200 19.7ms
+2026-10-02 23:56:45,780 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 10.9ms
+2026-10-02 23:56:45,784 INFO researchpulse GET /api/v1/authors/departments 200 13.1ms
+2026-10-02 23:56:45,796 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 12.7ms
+2026-10-02 23:56:45,798 INFO researchpulse GET /api/v1/authors 200 26.9ms
+2026-10-02 23:56:45,803 INFO researchpulse GET /api/v1/authors/departments 200 8.6ms
+2026-10-02 23:56:45,814 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 14.7ms
+2026-10-02 23:56:45,821 INFO researchpulse GET /api/v1/authors 200 20.5ms
+2026-10-02 23:56:45,828 INFO researchpulse GET /api/v1/authors/departments 200 15.2ms
+2026-10-02 23:56:45,836 INFO researchpulse GET /api/v1/authors 200 9.8ms
+2026-10-02 23:57:04,019 INFO researchpulse POST /api/v1/auth/login 200 6.5ms
+2026-10-02 23:57:09,340 INFO researchpulse POST /api/v1/auth/login 200 2.9ms
+2026-10-02 23:57:15,958 INFO researchpulse POST /api/v1/auth/login 200 2.7ms
+2026-10-02 23:57:16,008 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_1006498957590b9d 200 45.3ms
+2026-10-02 23:57:19,895 INFO researchpulse GET /api/v1/authors 200 53.7ms
+2026-10-02 23:57:19,906 INFO researchpulse GET /api/v1/authors/departments 200 43.6ms
+2026-10-02 23:57:19,938 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 62.5ms
+2026-10-02 23:57:24,907 INFO researchpulse GET /api/v1/authors/vfstr_9ee16e6d3f7e546fb522/profile 200 825.5ms
+2026-10-02 23:57:25,064 INFO researchpulse GET /api/v1/faculty/fac_vfstr_fe160f1a77a3db38/monthly-history 200 12.8ms
+2026-10-02 23:57:31,794 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_fe160f1a77a3db38 200 215.9ms
+2026-10-02 23:57:36,088 INFO researchpulse GET /api/v1/authors/departments 200 45.5ms
+2026-10-02 23:57:36,094 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 50.6ms
+2026-10-02 23:57:36,098 INFO researchpulse GET /api/v1/authors 200 59.4ms
+2026-10-02 23:57:36,431 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 17.8ms
+2026-10-02 23:57:36,436 INFO researchpulse GET /api/v1/authors/departments 200 22.8ms
+2026-10-02 23:57:36,446 INFO researchpulse GET /api/v1/authors 200 34.4ms
+2026-10-02 23:57:36,491 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 21.4ms
+2026-10-02 23:57:36,496 INFO researchpulse GET /api/v1/authors/departments 200 26.4ms
+2026-10-02 23:57:36,581 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 54.5ms
+2026-10-02 23:57:36,582 INFO researchpulse GET /api/v1/authors/departments 200 49.6ms
+2026-10-02 23:57:36,593 INFO researchpulse GET /api/v1/authors 200 125.2ms
+2026-10-02 23:57:36,611 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 26.7ms
+2026-10-02 23:57:36,618 INFO researchpulse GET /api/v1/authors/departments 200 25.7ms
+2026-10-02 23:57:36,635 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 22.1ms
+2026-10-02 23:57:36,648 INFO researchpulse GET /api/v1/authors 200 39.5ms
+2026-10-02 23:57:36,667 INFO researchpulse GET /api/v1/authors/departments 200 31.5ms
+2026-10-02 23:57:36,678 INFO researchpulse GET /api/v1/authors 200 27.0ms
+2026-10-02 23:57:36,693 INFO researchpulse GET /api/v1/authors 200 11.4ms
+2026-10-02 23:57:57,338 INFO researchpulse GET /api/v1/health 200 14.2ms
+2026-10-02 23:57:57,342 INFO researchpulse GET /api/v1/history 200 18.0ms
+2026-10-02 23:57:57,370 INFO researchpulse GET /api/v1/health 200 25.0ms
+2026-10-02 23:57:57,371 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 35.7ms
+2026-10-02 23:57:57,373 INFO researchpulse GET /api/v1/authors 200 48.3ms
+2026-10-02 23:57:57,378 INFO researchpulse GET /api/v1/authors/departments 200 40.6ms
+2026-10-02 23:57:57,381 INFO researchpulse GET /api/v1/authors 200 43.3ms
+2026-10-02 23:57:57,386 INFO researchpulse GET /api/v1/history 200 17.3ms
+2026-10-02 23:57:57,409 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 17.7ms
+2026-10-02 23:57:57,413 INFO researchpulse GET /api/v1/authors 200 29.3ms
+2026-10-02 23:57:57,416 INFO researchpulse GET /api/v1/health 200 27.5ms
+2026-10-02 23:57:57,419 INFO researchpulse GET /api/v1/history 200 26.9ms
+2026-10-02 23:57:57,428 INFO researchpulse GET /api/v1/authors/departments 200 37.6ms
+2026-10-02 23:57:57,434 INFO researchpulse GET /api/v1/authors 200 44.2ms
+2026-10-02 23:57:57,435 INFO researchpulse GET /api/v1/history 200 10.6ms
+2026-10-02 23:57:57,437 INFO researchpulse GET /api/v1/health 200 14.4ms
+2026-10-02 23:57:57,446 INFO researchpulse GET /api/v1/authors 200 24.6ms
+2026-10-02 23:57:57,463 INFO researchpulse GET /api/v1/authors 200 13.4ms
+2026-10-02 23:57:57,467 INFO researchpulse GET /api/v1/history 200 11.0ms
+2026-10-02 23:57:57,480 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 21.6ms
+2026-10-02 23:57:57,484 INFO researchpulse GET /api/v1/health 200 29.5ms
+2026-10-02 23:57:57,488 INFO researchpulse GET /api/v1/history 200 17.5ms
+2026-10-02 23:57:57,497 INFO researchpulse GET /api/v1/authors/departments 200 38.2ms
+2026-10-02 23:57:57,499 INFO researchpulse GET /api/v1/authors 200 30.6ms
+2026-10-02 23:57:57,504 INFO researchpulse GET /api/v1/authors 200 47.0ms
+2026-10-02 23:57:57,507 INFO researchpulse GET /api/v1/health 200 16.7ms
+2026-10-02 23:57:57,514 INFO researchpulse GET /api/v1/authors 200 11.7ms
+2026-10-02 23:57:57,539 INFO researchpulse GET /api/v1/health 200 11.4ms
+2026-10-02 23:57:57,558 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 24.9ms
+2026-10-02 23:57:57,565 INFO researchpulse GET /api/v1/history 200 36.9ms
+2026-10-02 23:57:57,566 INFO researchpulse GET /api/v1/authors/departments 200 34.4ms
+2026-10-02 23:57:57,567 INFO researchpulse GET /api/v1/authors 200 35.5ms
+2026-10-02 23:57:57,568 INFO researchpulse GET /api/v1/authors 200 38.3ms
+2026-10-02 23:57:57,571 INFO researchpulse GET /api/v1/health 200 12.3ms
+2026-10-02 23:57:57,578 INFO researchpulse GET /api/v1/history 200 7.8ms
+2026-10-02 23:57:57,589 INFO researchpulse GET /api/v1/authors 200 15.8ms
+2026-10-02 23:57:57,611 INFO researchpulse GET /api/v1/health 200 23.7ms
+2026-10-02 23:57:57,632 INFO researchpulse GET /api/v1/history 200 43.2ms
+2026-10-02 23:57:57,634 INFO researchpulse GET /api/v1/history 200 46.0ms
+2026-10-02 23:57:57,635 INFO researchpulse GET /api/v1/health 200 48.4ms
+2026-10-02 23:57:57,638 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 43.7ms
+2026-10-02 23:57:57,658 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 45.4ms
+2026-10-02 23:57:57,663 INFO researchpulse GET /api/v1/authors 200 71.9ms
+2026-10-02 23:57:57,667 INFO researchpulse GET /api/v1/authors 200 70.8ms
+2026-10-02 23:57:57,671 INFO researchpulse GET /api/v1/authors/departments 200 61.3ms
+2026-10-02 23:57:57,674 INFO researchpulse GET /api/v1/authors/departments 200 80.1ms
+2026-10-02 23:57:57,684 INFO researchpulse GET /api/v1/authors 200 92.5ms
+2026-10-02 23:57:57,701 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 43.2ms
+2026-10-02 23:57:57,712 INFO researchpulse GET /api/v1/health 200 81.5ms
+2026-10-02 23:57:57,714 INFO researchpulse GET /api/v1/health 200 57.2ms
+2026-10-02 23:57:57,721 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 52.0ms
+2026-10-02 23:57:57,740 INFO researchpulse GET /api/v1/history 200 84.9ms
+2026-10-02 23:57:57,741 INFO researchpulse GET /api/v1/history 200 84.1ms
+2026-10-02 23:57:57,748 INFO researchpulse GET /api/v1/authors 200 139.2ms
+2026-10-02 23:57:57,777 INFO researchpulse GET /api/v1/authors 200 100.5ms
+2026-10-02 23:57:57,779 INFO researchpulse GET /api/v1/authors 200 96.7ms
+2026-10-02 23:57:57,785 INFO researchpulse GET /api/v1/authors/departments 200 85.7ms
+2026-10-02 23:57:57,788 INFO researchpulse GET /api/v1/authors/departments 200 93.4ms
+2026-10-02 23:57:57,790 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 44.9ms
+2026-10-02 23:57:57,794 INFO researchpulse GET /api/v1/health 200 44.3ms
+2026-10-02 23:57:57,805 INFO researchpulse GET /api/v1/authors 200 92.9ms
+2026-10-02 23:57:57,808 INFO researchpulse GET /api/v1/history 200 54.2ms
+2026-10-02 23:57:57,822 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 20.8ms
+2026-10-02 23:57:57,827 INFO researchpulse GET /api/v1/authors 200 33.3ms
+2026-10-02 23:57:57,828 INFO researchpulse GET /api/v1/history 200 16.6ms
+2026-10-02 23:57:57,841 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 15.6ms
+2026-10-02 23:57:57,850 INFO researchpulse GET /api/v1/authors/departments 200 52.6ms
+2026-10-02 23:57:57,851 INFO researchpulse GET /api/v1/authors 200 89.7ms
+2026-10-02 23:57:57,856 INFO researchpulse GET /api/v1/health 200 51.2ms
+2026-10-02 23:57:57,860 INFO researchpulse GET /api/v1/history 200 19.3ms
+2026-10-02 23:57:57,879 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 30.1ms
+2026-10-02 23:57:57,884 INFO researchpulse GET /api/v1/authors 200 73.2ms
+2026-10-02 23:57:57,887 INFO researchpulse GET /api/v1/authors 200 48.4ms
+2026-10-02 23:57:57,891 INFO researchpulse GET /api/v1/authors/departments 200 35.8ms
+2026-10-02 23:57:57,895 INFO researchpulse GET /api/v1/health 200 35.1ms
+2026-10-02 23:57:57,902 INFO researchpulse GET /api/v1/history 200 23.8ms
+2026-10-02 23:57:57,914 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 27.4ms
+2026-10-02 23:57:57,922 INFO researchpulse GET /api/v1/authors 200 28.3ms
+2026-10-02 23:57:57,938 INFO researchpulse GET /api/v1/history 200 21.2ms
+2026-10-02 23:57:57,939 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 20.6ms
+2026-10-02 23:57:57,944 INFO researchpulse GET /api/v1/health 200 42.5ms
+2026-10-02 23:57:57,956 INFO researchpulse GET /api/v1/authors 200 65.7ms
+2026-10-02 23:57:57,957 INFO researchpulse GET /api/v1/authors/departments 200 58.8ms
+2026-10-02 23:57:57,970 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 22.5ms
+2026-10-02 23:57:57,976 INFO researchpulse GET /api/v1/history 200 32.3ms
+2026-10-02 23:57:57,982 INFO researchpulse GET /api/v1/health 200 29.3ms
+2026-10-02 23:57:57,983 INFO researchpulse GET /api/v1/authors 200 47.2ms
+2026-10-02 23:57:57,998 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 22.6ms
+2026-10-02 23:57:58,004 INFO researchpulse GET /api/v1/history 200 20.0ms
+2026-10-02 23:57:58,033 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 31.0ms
+2026-10-02 23:57:58,036 INFO researchpulse GET /api/v1/health 200 41.3ms
+2026-10-02 23:57:58,041 INFO researchpulse GET /api/v1/authors/departments 200 68.7ms
+2026-10-02 23:57:58,043 INFO researchpulse GET /api/v1/authors 200 47.0ms
+2026-10-02 23:57:58,053 INFO researchpulse GET /api/v1/authors 200 80.9ms
+2026-10-02 23:57:58,054 INFO researchpulse GET /api/v1/history 200 24.8ms
+2026-10-02 23:57:58,070 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 26.3ms
+2026-10-02 23:57:58,076 INFO researchpulse GET /api/v1/health 200 25.5ms
+2026-10-02 23:57:58,094 INFO researchpulse GET /api/v1/authors/departments 200 39.2ms
+2026-10-02 23:57:58,096 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 21.3ms
+2026-10-02 23:57:58,100 INFO researchpulse GET /api/v1/authors 200 44.5ms
+2026-10-02 23:57:58,105 INFO researchpulse GET /api/v1/authors 200 36.5ms
+2026-10-02 23:57:58,110 INFO researchpulse GET /api/v1/health 200 30.1ms
+2026-10-02 23:57:58,117 INFO researchpulse GET /api/v1/authors/departments 200 15.8ms
+2026-10-02 23:57:58,129 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 24.7ms
+2026-10-02 23:57:58,135 INFO researchpulse GET /api/v1/authors 200 27.8ms
+2026-10-02 23:57:58,143 INFO researchpulse GET /api/v1/authors/departments 200 12.1ms
+2026-10-02 23:57:58,148 INFO researchpulse GET /api/v1/authors 200 38.3ms
+2026-10-02 23:57:58,156 INFO researchpulse GET /api/v1/authors 200 17.8ms
+2026-10-02 23:57:58,160 INFO researchpulse GET /api/v1/authors/departments 200 12.6ms
+2026-10-02 23:57:58,170 INFO researchpulse GET /api/v1/authors 200 18.1ms
+2026-10-02 23:57:58,179 INFO researchpulse GET /api/v1/authors/departments 200 9.5ms
+2026-10-02 23:57:58,187 INFO researchpulse GET /api/v1/authors 200 12.2ms
+2026-10-02 23:57:58,203 INFO researchpulse GET /api/v1/authors/departments 200 10.7ms
+2026-10-02 23:57:58,213 INFO researchpulse GET /api/v1/authors 200 20.4ms
+2026-10-02 23:57:58,219 INFO researchpulse GET /api/v1/authors/departments 200 9.5ms
+2026-10-02 23:57:58,233 INFO researchpulse GET /api/v1/authors/departments 200 9.0ms
+2026-10-02 23:57:58,239 INFO researchpulse GET /api/v1/authors 200 16.8ms
+2026-10-02 23:57:58,262 INFO researchpulse GET /api/v1/authors 200 14.2ms
+2026-10-02 23:57:58,280 INFO researchpulse GET /api/v1/authors 200 11.1ms
+2026-10-02 23:57:58,295 INFO researchpulse GET /api/v1/authors 200 11.5ms
+2026-10-02 23:57:59,496 INFO researchpulse GET /api/v1/health 200 22.1ms
+2026-10-02 23:57:59,499 INFO researchpulse GET /api/v1/history 200 24.1ms
+2026-10-02 23:57:59,499 INFO researchpulse GET /api/v1/authors 200 24.1ms
+2026-10-02 23:57:59,512 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 18.4ms
+2026-10-02 23:57:59,518 INFO researchpulse GET /api/v1/authors/departments 200 40.1ms
+2026-10-02 23:57:59,521 INFO researchpulse GET /api/v1/history 200 8.1ms
+2026-10-02 23:57:59,526 INFO researchpulse GET /api/v1/health 200 14.5ms
+2026-10-02 23:57:59,529 INFO researchpulse GET /api/v1/authors 200 15.9ms
+2026-10-02 23:57:59,532 INFO researchpulse GET /api/v1/authors 200 55.0ms
+2026-10-02 23:57:59,602 INFO researchpulse GET /api/v1/health 200 11.9ms
+2026-10-02 23:57:59,610 INFO researchpulse GET /api/v1/history 200 16.0ms
+2026-10-02 23:57:59,622 INFO researchpulse GET /api/v1/authors 200 27.3ms
+2026-10-02 23:57:59,624 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 17.8ms
+2026-10-02 23:57:59,633 INFO researchpulse GET /api/v1/authors 200 32.5ms
+2026-10-02 23:57:59,637 INFO researchpulse GET /api/v1/history 200 11.9ms
+2026-10-02 23:57:59,640 INFO researchpulse GET /api/v1/health 200 31.1ms
+2026-10-02 23:57:59,646 INFO researchpulse GET /api/v1/authors/departments 200 40.5ms
+2026-10-02 23:57:59,647 INFO researchpulse GET /api/v1/authors 200 18.3ms
+2026-10-02 23:57:59,825 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 21.6ms
+2026-10-02 23:57:59,827 INFO researchpulse GET /api/v1/health 200 27.7ms
+2026-10-02 23:57:59,830 INFO researchpulse GET /api/v1/history 200 29.9ms
+2026-10-02 23:57:59,832 INFO researchpulse GET /api/v1/authors/departments 200 30.2ms
+2026-10-02 23:57:59,833 INFO researchpulse GET /api/v1/authors 200 31.4ms
+2026-10-02 23:57:59,836 INFO researchpulse GET /api/v1/authors 200 34.2ms
+2026-10-02 23:57:59,846 INFO researchpulse GET /api/v1/health 200 11.0ms
+2026-10-02 23:57:59,848 INFO researchpulse GET /api/v1/history 200 9.5ms
+2026-10-02 23:57:59,851 INFO researchpulse GET /api/v1/authors 200 9.1ms
+2026-10-02 23:57:59,969 INFO researchpulse GET /api/v1/history 200 7.7ms
+2026-10-02 23:57:59,979 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 15.3ms
+2026-10-02 23:57:59,986 INFO researchpulse GET /api/v1/health 200 25.0ms
+2026-10-02 23:57:59,991 INFO researchpulse GET /api/v1/authors 200 28.8ms
+2026-10-02 23:57:59,992 INFO researchpulse GET /api/v1/history 200 11.7ms
+2026-10-02 23:58:00,000 INFO researchpulse GET /api/v1/authors/departments 200 36.3ms
+2026-10-02 23:58:00,004 INFO researchpulse GET /api/v1/authors 200 40.2ms
+2026-10-02 23:58:00,006 INFO researchpulse GET /api/v1/health 200 16.9ms
+2026-10-02 23:58:00,010 INFO researchpulse GET /api/v1/authors 200 15.1ms
+2026-10-02 23:58:00,088 INFO researchpulse GET /api/v1/health 200 9.2ms
+2026-10-02 23:58:00,098 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 15.8ms
+2026-10-02 23:58:00,102 INFO researchpulse GET /api/v1/history 200 22.0ms
+2026-10-02 23:58:00,111 INFO researchpulse GET /api/v1/authors 200 30.5ms
+2026-10-02 23:58:00,112 INFO researchpulse GET /api/v1/authors/departments 200 29.7ms
+2026-10-02 23:58:00,119 INFO researchpulse GET /api/v1/history 200 9.7ms
+2026-10-02 23:58:00,120 INFO researchpulse GET /api/v1/authors 200 37.5ms
+2026-10-02 23:58:00,120 INFO researchpulse GET /api/v1/health 200 21.0ms
+2026-10-02 23:58:00,127 INFO researchpulse GET /api/v1/authors 200 12.4ms
+2026-10-02 23:58:00,216 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 21.3ms
+2026-10-02 23:58:00,217 INFO researchpulse GET /api/v1/health 200 25.2ms
+2026-10-02 23:58:00,221 INFO researchpulse GET /api/v1/history 200 27.3ms
+2026-10-02 23:58:00,222 INFO researchpulse GET /api/v1/authors/departments 200 26.8ms
+2026-10-02 23:58:00,224 INFO researchpulse GET /api/v1/authors 200 29.9ms
+2026-10-02 23:58:00,226 INFO researchpulse GET /api/v1/authors 200 31.8ms
+2026-10-02 23:58:00,234 INFO researchpulse GET /api/v1/health 200 10.2ms
+2026-10-02 23:58:00,237 INFO researchpulse GET /api/v1/history 200 8.6ms
+2026-10-02 23:58:00,241 INFO researchpulse GET /api/v1/authors 200 11.3ms
+2026-10-02 23:58:00,272 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 12.3ms
+2026-10-02 23:58:00,278 INFO researchpulse GET /api/v1/authors/departments 200 19.7ms
+2026-10-02 23:58:00,282 INFO researchpulse GET /api/v1/authors 200 24.5ms
+2026-10-02 23:58:00,328 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 12.6ms
+2026-10-02 23:58:00,333 INFO researchpulse GET /api/v1/authors/departments 200 17.7ms
+2026-10-02 23:58:00,337 INFO researchpulse GET /api/v1/authors 200 22.4ms
+2026-10-02 23:58:00,355 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 12.4ms
+2026-10-02 23:58:00,361 INFO researchpulse GET /api/v1/authors/departments 200 18.7ms
+2026-10-02 23:58:00,364 INFO researchpulse GET /api/v1/authors 200 24.0ms
+2026-10-02 23:58:00,382 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 11.1ms
+2026-10-02 23:58:00,388 INFO researchpulse GET /api/v1/authors/departments 200 17.4ms
+2026-10-02 23:58:00,393 INFO researchpulse GET /api/v1/authors 200 23.3ms
+2026-10-02 23:58:00,475 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 13.6ms
+2026-10-02 23:58:00,481 INFO researchpulse GET /api/v1/authors/departments 200 19.3ms
+2026-10-02 23:58:00,487 INFO researchpulse GET /api/v1/authors 200 27.0ms
+2026-10-02 23:58:00,609 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 13.6ms
+2026-10-02 23:58:00,615 INFO researchpulse GET /api/v1/authors/departments 200 20.1ms
+2026-10-02 23:58:00,620 INFO researchpulse GET /api/v1/authors 200 26.3ms
+2026-10-02 23:58:45,617 INFO researchpulse POST /api/v1/auth/login 200 3.3ms
+2026-10-02 23:58:45,627 INFO researchpulse GET /api/v1/faculty/fac_vfstr_1006498957590b9d 200 5.7ms
+2026-10-02 23:58:45,649 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_1006498957590b9d 200 19.9ms
+2026-10-02 23:58:50,719 INFO researchpulse POST /api/v1/auth/login 200 1.4ms
+2026-10-02 23:58:50,728 INFO researchpulse GET /api/v1/faculty/fac_vfstr_1006498957590b9d 200 5.5ms
+2026-10-02 23:58:50,774 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_1006498957590b9d 200 24.8ms
+2026-10-02 23:58:50,784 INFO researchpulse GET /api/v1/faculty/fac_vfstr_1006498957590b9d 200 6.0ms
+2026-10-02 23:59:29,672 INFO researchpulse GET /api/v1/health 200 42.8ms
+2026-10-02 23:59:29,674 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 41.1ms
+2026-10-02 23:59:29,683 INFO researchpulse GET /api/v1/history 200 53.9ms
+2026-10-02 23:59:29,685 INFO researchpulse GET /api/v1/authors 200 52.7ms
+2026-10-02 23:59:29,694 INFO researchpulse GET /api/v1/authors/departments 200 57.1ms
+2026-10-02 23:59:29,699 INFO researchpulse GET /api/v1/authors 200 65.2ms
+2026-10-02 23:59:29,705 INFO researchpulse GET /api/v1/history 200 18.5ms
+2026-10-02 23:59:29,709 INFO researchpulse GET /api/v1/health 200 22.6ms
+2026-10-02 23:59:29,712 INFO researchpulse GET /api/v1/authors 200 21.2ms
+2026-10-02 23:59:29,726 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 22.8ms
+2026-10-02 23:59:29,733 INFO researchpulse GET /api/v1/authors 200 37.2ms
+2026-10-02 23:59:29,736 INFO researchpulse GET /api/v1/authors/departments 200 35.0ms
+2026-10-02 23:59:33,304 INFO researchpulse GET /api/v1/authors/vfstr_9ee16e6d3f7e546fb522/profile 200 19.9ms
+2026-10-02 23:59:33,433 INFO researchpulse GET /api/v1/faculty/fac_vfstr_fe160f1a77a3db38/monthly-history 200 7.4ms
+2026-10-02 23:59:38,100 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_fe160f1a77a3db38 200 52.2ms
+2026-10-02 23:59:42,839 INFO researchpulse GET /api/v1/authors 200 28.4ms
+2026-10-02 23:59:42,859 INFO researchpulse GET /api/v1/authors/departments 200 44.1ms
+2026-10-02 23:59:42,861 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 45.5ms
+2026-10-02 23:59:51,318 INFO researchpulse GET /api/v1/authors/vfstr_94e06f66ffe4684224a8/profile 200 74.9ms
+2026-10-02 23:59:51,498 INFO researchpulse GET /api/v1/faculty/fac_vfstr_d8631ae4a538926d/monthly-history 200 8.0ms
+2026-10-03 00:00:04,492 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_d8631ae4a538926d 200 534.1ms
+2026-10-03 00:00:07,064 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 23.1ms
+2026-10-03 00:00:07,066 INFO researchpulse GET /api/v1/authors/departments 200 26.1ms
+2026-10-03 00:00:07,070 INFO researchpulse GET /api/v1/authors 200 31.0ms
+2026-10-03 00:03:45,899 INFO researchpulse GET /api/v1/authors/vfstr_94e06f66ffe4684224a8/profile 200 82.8ms
+2026-10-03 00:03:46,090 INFO researchpulse GET /api/v1/faculty/fac_vfstr_d8631ae4a538926d/monthly-history 200 9.5ms
+2026-10-03 00:03:51,088 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_d8631ae4a538926d 200 52.3ms
+2026-10-03 00:03:52,145 INFO researchpulse PATCH /api/v1/faculty/fac_vfstr_d8631ae4a538926d 200 87.6ms
+2026-10-03 00:03:54,033 INFO researchpulse GET /api/v1/authors/departments 200 33.4ms
+2026-10-03 00:03:54,035 INFO researchpulse GET /api/v1/authors 200 41.2ms
+2026-10-03 00:03:54,074 INFO researchpulse GET /api/v1/authors/metrics/import-report 200 64.9ms
