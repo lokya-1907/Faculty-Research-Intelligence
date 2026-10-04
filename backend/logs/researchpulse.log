@@ -110,7 +110,7 @@
 2026-10-02 17:56:52,254 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857204239510%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
 2026-10-02 17:56:55,358 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=sg24b4gAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
 2026-10-02 17:57:06,074 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2857200582300%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
-2026-10-02 17:57:09,401 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=KNXi4UUAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
+2026-10-02 17:57:09,401 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=KNXi4UUAAAAJ&api_key=4d2b5b0031c991c751142aa82a23d8a2867028fd530c22683afab19ffa3ca79f "HTTP/1.1 200 OK"
 2026-10-02 17:57:15,018 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=rwo7mJQAAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
 2026-10-02 17:57:17,390 INFO httpx HTTP Request: GET https://serpapi.com/search?engine=google_scholar_author&author_id=3xqAdb4AAAAJ&api_key=31289c2bac1528fde73776bd8eeaef31218ec1ef444a999b38e9d4fbc6f914af "HTTP/1.1 200 OK"
 2026-10-02 17:57:19,000 INFO httpx HTTP Request: GET https://api.elsevier.com/content/search/scopus?query=AU-ID%2859740901400%29&count=25&start=0&sort=-citedby-count&view=STANDARD "HTTP/1.1 200 OK"
