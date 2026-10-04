@@ -74,6 +74,8 @@ class VFSTRAuthor(BaseModel):
     verified: bool
     data_status: Optional[str] = None
     metrics_date: Optional[str] = None
+    google_scholar_metrics_at: Optional[str] = None
+    scopus_metrics_at: Optional[str] = None
     last_updated: str
 
 class VFSTRAuthorPage(BaseModel):

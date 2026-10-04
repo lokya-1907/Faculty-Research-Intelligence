@@ -8,6 +8,7 @@ import { ExtrasNavButtons, ExtrasMobileNavButtons, ExtrasPage } from './extras.j
 const EXTRA_PAGES = new Set(['exports', 'review', 'analytics', 'operations']);
 const API=import.meta.env.VITE_API_URL??(import.meta.env.DEV?'http://127.0.0.1:8000':'');
 const apiFetch=(path,options={})=>{const headers=new Headers(options.headers||{});const token=localStorage.getItem('researchpulse_session');if(token)headers.set('Authorization',`Bearer ${token}`);return fetch(API+path,{...options,headers})};
+
 function LoginPage({onLogin}){const [username,setUsername]=useState('');const [password,setPassword]=useState('');const [busy,setBusy]=useState(false);const [error,setError]=useState('');const submit=async event=>{event.preventDefault();setBusy(true);setError('');try{const response=await fetch(API+'/api/v1/auth/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({username,password})});const result=await response.json();if(!response.ok)throw new Error(result.detail||'Unable to sign in.');localStorage.setItem('researchpulse_session',result.access_token);onLogin(result.username)}catch(loginError){setError(loginError.message)}finally{setBusy(false)}};return <main className="login-page"><section className="login-visual"><div className="login-brand"><div className="mark"><Activity/></div><div><strong>ResearchPulse</strong><span>Faculty Research Intelligence</span></div></div><div className="login-intro"><span className="eyebrow">PRIVATE RESEARCH WORKSPACE</span><h1>Bring every faculty profile into focus.</h1><p>Securely access verified directories, source-separated metrics, live synchronization, and historical research evidence.</p></div><div className="login-proof"><span><CheckCircle2 size={15}/> Verified VFSTR sources</span><span><Database size={15}/> Multi-source metrics</span><span><RefreshCw size={15}/> Live synchronization</span></div></section><section className="login-panel"><div className="login-card"><span className="label">WELCOME BACK</span><h2>Sign in to ResearchPulse</h2><p className="login-subtitle">Use your workspace credentials to continue.</p><form onSubmit={submit}><label>Username<input value={username} onChange={event=>setUsername(event.target.value)} autoComplete="username" placeholder="Enter username" required /></label><label>Password<input value={password} onChange={event=>setPassword(event.target.value)} autoComplete="current-password" type="password" placeholder="Enter password" required /></label>{error&&<div className="notice error"><AlertCircle size={16}/>{error}</div>}<button className="primary login-submit" disabled={busy}>{busy?'Signing in...':'Sign in'}<ChevronRight size={17}/></button></form><small className="login-footnote">Your session expires automatically after the configured session period.</small></div></section></main>}
 
 function App(){
@@ -74,15 +75,15 @@ function AuthorsDirectory({authors,total,departments,schools,designations,resear
 }
 function VFSTRAuthorCard({author,display,openProfile}){
  const metricDate=author.metrics_date?new Date(`${author.metrics_date}-01T00:00:00`).toLocaleDateString(undefined,{month:'long',year:'numeric'}):'N/A';
- const status=(author.data_status||'').trim();
- const isUpdated=status.toLowerCase()==='updated';
- const hasScholar=author.google_scholar_citations!==null&&author.google_scholar_citations!==undefined;
- const hasScopus=author.scopus_citations!==null&&author.scopus_citations!==undefined;
+ const syncDate=value=>value?new Date(value).toLocaleDateString(undefined,{month:'short',year:'numeric'}):null;
+ const scholarSyncDate=syncDate(author.google_scholar_metrics_at);
+ const scopusSyncDate=syncDate(author.scopus_metrics_at);
+ const hasLiveMetrics=Boolean(scholarSyncDate||scopusSyncDate);
  const metric=value=>value===null||value===undefined||value===''?<dd className="is-empty">N/A</dd>:<dd>{value}</dd>;
  const tags=[
   author.campus&&{key:'campus',label:author.campus},
-  hasScholar&&{key:'scholar',label:'Scholar linked'},
-  hasScopus&&{key:'scopus',label:'Scopus linked'},
+  author.google_scholar_url&&{key:'scholar',label:'Scholar linked'},
+  (author.scopus_profile_url||author.scopus_author_id)&&{key:'scopus',label:'Scopus linked'},
  ].filter(Boolean);
  return <article className="author-card" key={author.id}>
   <div className="author-card-head">
@@ -95,10 +96,10 @@ function VFSTRAuthorCard({author,display,openProfile}){
    <span className="verified-mark" title="Verified from official VFSTR faculty directory"><CheckCircle2 size={18}/></span>
   </div>
   <div className="author-card-metrics">
-   <section className="author-metric-panel scholar" aria-labelledby={`scholar-${author.id}`}><h4 id={`scholar-${author.id}`}><i aria-hidden="true"/>Google Scholar</h4><dl><div><dt>Citations</dt>{metric(author.google_scholar_citations)}</div><div><dt>h-index</dt>{metric(author.google_scholar_h_index)}</div><div><dt>i10-index</dt>{metric(author.google_scholar_i10)}</div></dl><small>VFSTR CSE April 2026 dataset</small></section>
-   <section className="author-metric-panel scopus" aria-labelledby={`scopus-${author.id}`}><h4 id={`scopus-${author.id}`}><i aria-hidden="true"/>Scopus</h4><dl><div><dt>Citations</dt>{metric(author.scopus_citations)}</div><div><dt>h-index</dt>{metric(author.scopus_h_index)}</div><div><dt>Author ID</dt>{author.scopus_author_id?<dd className="is-id" title={author.scopus_author_id}>{author.scopus_author_id}</dd>:<dd className="is-empty" aria-label="Scopus author ID not available">N/A</dd>}</div></dl><small>VFSTR CSE April 2026 dataset</small></section>
+    <section className="author-metric-panel scholar" aria-labelledby={`scholar-${author.id}`}><h4 id={`scholar-${author.id}`}><i aria-hidden="true"/>Google Scholar</h4><dl><div><dt>Citations</dt>{metric(author.google_scholar_citations)}</div><div><dt>h-index</dt>{metric(author.google_scholar_h_index)}</div><div><dt>i10-index</dt>{metric(author.google_scholar_i10)}</div></dl><small>{scholarSyncDate?`Latest sync · ${scholarSyncDate}`:'No live sync yet'}</small></section>
+    <section className="author-metric-panel scopus" aria-labelledby={`scopus-${author.id}`}><h4 id={`scopus-${author.id}`}><i aria-hidden="true"/>Scopus</h4><dl><div><dt>Citations</dt>{metric(author.scopus_citations)}</div><div><dt>h-index</dt>{metric(author.scopus_h_index)}</div><div><dt>Author ID</dt>{author.scopus_author_id?<dd className="is-id" title={author.scopus_author_id}>{author.scopus_author_id}</dd>:<dd className="is-empty" aria-label="Scopus author ID not available">N/A</dd>}</div></dl><small>{scopusSyncDate?`Latest sync · ${scopusSyncDate} · Scopus Search`:'No live sync yet'}</small></section>
   </div>
-  <div className="author-status-row"><span className={'author-status-pill '+(isUpdated?'is-updated':status?'':'is-muted')}>{isUpdated?'Updated':status||'Status not recorded'}</span><span className="author-status-note">Metrics: {metricDate}</span></div>
+  <div className="author-status-row"><span className={'author-status-pill '+(hasLiveMetrics?'is-updated':'is-muted')}>{hasLiveMetrics?'Live metrics':'Not synced'}</span><span className="author-status-note">{hasLiveMetrics?`Last synced: ${[scholarSyncDate,scopusSyncDate].filter(Boolean).join(' · ')}`:`Historical snapshot: ${metricDate}`}</span></div>
   <div className="author-card-body">
    <div className="author-field"><strong>Research interests</strong>{author.research_interests?.length?<div className="author-chips">{author.research_interests.map((interest,index)=><span className="author-chip" key={index}>{interest}</span>)}</div>:<p className="is-empty">N/A</p>}</div>
    <div className="author-field"><strong>Professional memberships</strong>{author.professional_memberships?<p>{author.professional_memberships}</p>:<p className="is-empty">N/A</p>}</div>

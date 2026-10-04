@@ -186,6 +186,30 @@ def list_authors(search='', department='', school='', designation='', research_a
     page=max(1,page)
     page_size=min(max(1,page_size),100)
     rows,total=db.vfstr_authors(search=search,department=department,school=school,designation=designation,research_area=research_area,has_google_scholar=has_google_scholar,has_scopus=has_scopus,data_status=data_status,sort=sort,limit=page_size,offset=(page-1)*page_size)
+    # Directory cards show live metrics only. The imported VFSTR spreadsheet
+    # remains available as a historical snapshot on the faculty profile.
+    for author in rows:
+        author['google_scholar_citations']=None
+        author['google_scholar_h_index']=None
+        author['google_scholar_i10']=None
+        author['scopus_citations']=None
+        author['scopus_h_index']=None
+        faculty_id=author.get('faculty_id')
+        if not faculty_id:
+            continue
+        latest={metric['source']:metric for metric in db.latest_metrics(faculty_id)
+                if metric.get('status')=='ok'}
+        scholar=latest.get('google_scholar')
+        if scholar:
+            author['google_scholar_citations']=scholar.get('citations')
+            author['google_scholar_h_index']=scholar.get('h_index')
+            author['google_scholar_i10']=scholar.get('i10_index')
+            author['google_scholar_metrics_at']=scholar.get('captured_at')
+        scopus=latest.get('scopus_search')
+        if scopus:
+            author['scopus_citations']=scopus.get('citations')
+            author['scopus_h_index']=scopus.get('h_index')
+            author['scopus_metrics_at']=scopus.get('captured_at')
     return {
         'authors':rows,
         'total':total,
